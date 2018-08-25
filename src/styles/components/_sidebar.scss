@@ -1,0 +1,125 @@
+.Sidebar {
+  background: $color-gray-m;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(to right top, #aa3c84, #e74c3c);
+  border-image-slice: 1;
+
+  &__profile {
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+  }
+  &__text {
+    text-align: left;
+    margin-left: 20px;
+  }
+  &__mobile-title {
+    color: $color-text-primary;
+    font-family: 'Heebo', sans-serif;
+    // font-weight: 400;
+    font-size: $font-header;
+  }
+  &__pfp {
+    border-radius: 100%;
+    height: 95px;
+    width: 95px;
+    background: #373b41;
+    border: 3px solid rgba($color-purple-l, 0.6);
+    box-shadow: 0px 4px 30px -4px rgba(0,0,0,0.6);
+  }
+  &__status-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+  }
+  &__status-dot {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background: rgb(81, 158, 144);
+    position: relative;
+    top: 3px;
+  }
+  &__status {
+    color: $color-text-tertiary;
+    font-size: 1.5rem;
+    font-style: italic;
+    position: relative;
+    margin-left: 5px;
+    line-height: 1;
+  }
+
+  &__social-icons {
+    display: flex;
+    justify-content: center;
+    a {
+      display: block;
+      margin: 20px 20px 5px;
+    }
+    svg {
+      font-size: 24px;
+      color: rgba(198, 90, 107, 0.75);
+      display: block;
+      transition: all .3s;
+      &:hover, &:focus {
+        color: rgba(214, 24, 58, 1);
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  &__legal {
+    display: none;
+    padding: 5px;
+    text-align: center;
+    background: #373b41;
+    font-size: 14px;
+    color: #707680;
+  }
+
+  @include whenMedium {
+  }
+  @include whenLarge {
+    min-width: 260px;
+    flex-direction: column;
+    padding: 0;
+    border-bottom: none;
+
+
+    &__profile {
+      display: block;
+      margin-top: 20px;
+    }
+    &__pfp {
+      height: 136px;
+      width: 136px;
+    }
+    &__mobile-title {
+      display: none;
+    }
+    &__legal {
+      display: block;
+    }
+    &__social-icons {
+      justify-content: center;
+      a {
+        margin: 10px 15px 5px;
+      }
+    }
+    &__status-wrapper {
+      padding: 0 10px;
+      margin: 10px 0;
+    }
+    &__text {
+      margin-left: 0px;
+    }
+
+  }
+}

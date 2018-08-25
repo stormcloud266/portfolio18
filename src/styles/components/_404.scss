@@ -1,0 +1,40 @@
+.lost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 40px 20px 0;
+
+  .ufo {
+    max-width: 400px;
+    position: relative;
+    z-index: 3;
+  }
+  p {
+    font-size: 2.2rem;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+    top: -45px;
+    z-index: 2;
+    color: $color-text-primary;
+  }
+  .cow {
+    position: absolute;
+    width: 196px;
+    bottom: 0;
+    left: 10px;
+    display: none;
+  }
+  @include whenMedium {
+    padding-top: 80px;
+    .ufo { transform: rotate(13.8deg); }
+    p {
+      left: -40px;
+      transform: rotate(13.8deg);
+    }
+  }
+  @include whenLarge {
+    .cow { display: block; }
+  }
+}

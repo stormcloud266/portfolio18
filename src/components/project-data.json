@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Reactified Weather",
+    "description": {
+      "__html": "<p>This weather app was built with React, powered by Node, and styled with SCSS. It utilizes Google's <a href='https://developers.google.com/maps/documentation/geocoding/start'>Geocoding API</a> and Dark Sky's <a href='https://darksky.net/dev'>Weather API</a> to get weather data for searched locations.</p>"},
+    "tasks": [
+      {
+        "__html": "Writing a function to integrate the <a href='https://erikflowers.github.io/weather-icons/'>weather icons</a> with the conditions info sent back from Dark Sky"
+      },
+      {
+        "__html": "Building a NodeJS server to host the app in order to eliminate CORS conflicts and to send the API keys securely"
+      },
+      {
+        "__html": "Deploying the app on Heroku which required setting up conditional port and API key variables"
+      }
+    ],
+    "icon": "react",
+    "demo": "https://reactified-weather.herokuapp.com/",
+    "source": "https://github.com/stormcloud266/react-weather",
+    "tech": [
+      "React",
+      "SCSS",
+      "Node",
+      "Webpack",
+      "Heroku"
+    ]
+  },
+  {
+    "name": "Expensify App",
+    "description": {"__html": "<p>The Expensify App was the final project in the <a href='https://www.udemy.com/react-2nd-edition/learn/v4/overview'>Complete React Web Developer</a> Udemy Course. It is a fullstack budget app featuring a user authentication and persistent state via Firebase. The user can filter by date or expense amount, and add, search, edit, and delete expenses.</p>"},
+    "tasks": [
+      {
+        "__html": "Setting up Jest as the testing suite"
+      },
+      {
+        "__html": "Connecting Firebase to the app to manage stored data securely and authenticating users via Google account"
+      },
+      {
+        "__html": "Configuring Webpack to use in this project and also as a boilerplate for future projects"
+      }
+    ],
+    "icon": "react",
+    "demo": "https://expensify-app-333.herokuapp.com/",
+    "source": "https://github.com/stormcloud266/expensify-app/",
+    "tech": [
+      "React",
+      "Redux",
+      "SCSS",
+      "Firebase",
+      "Jest",
+      "Webpack",
+      "Heroku"
+    ]
+  },
+  {
+    "name": "Portfolio 1.0",
+    "description": {"__html": "<p>My first portfolio website created for public release. I wanted a clean, responsive website that featured my projects and a working contact form. My main focus creating this project was learning website security, c-panel, and web hosting.</p>"},
+    "tasks": [
+      {
+        "__html": "Using Flexbox and CSS Grid to create a fully responsive website"
+      },
+      {
+        "__html": "Configuring a working form that uses jQuery to send an ajax request and PHP on the server to parse the request and send the email"
+      },
+      {
+        "__html": "Securing the site by setting up HTTPS, implementing input sanitation/verification, and adding CSP, HSTS, and XSS headers"
+      }
+    ],
+    "icon": "html5",
+    "demo": "https://www.tlacoding.com/",
+    "source": "https://github.com/stormcloud266/gridfolio",
+    "tech": [
+      "HTML5",
+      "PostCSS",
+      "jQuery",
+      "PHP",
+      "Gulp",
+      "Apache"
+    ]
+  },
+  {
+    "name": "Café",
+    "description": {"__html": "<p></p>"},
+    "tasks": [
+      {
+        "__html": "Designing a fast, mobile-ready website suitable for a café style restaurant"
+      },
+      {
+        "__html": "Building a tabbed menu interface"
+      },
+      {
+        "__html": "Securing the site by setting up HTTPS, implementing input sanitation/verification, and adding CSP, HSTS, and XSS headers"
+      }
+    ],
+    "icon": "html5",
+    "demo": "https://flamboyant-edison-672ef1.netlify.com/",
+    "source": "https://github.com/stormcloud266/gridfolio",
+    "tech": [
+      "HTML5",
+      "SCSS",
+      "jQuery",
+      "Gulp"
+    ]
+  }
+
+]

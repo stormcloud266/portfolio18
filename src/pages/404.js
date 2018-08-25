@@ -1,10 +1,18 @@
-import React from 'react'
-import Layout from '../components/layout'
+import React from 'react';
+import Layout from '../components/layout';
+import ufo from '../assets/ufo.svg';
+import cow from '../assets/cow.png';
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <div className="lost">
+      <img src={ufo} alt="" className='ufo'/>
+
+      <p>Hey, I don't think I made the page you were looking for, but you seem cool and adventurous. The truth is out there.</p>
+
+      <img src={cow} alt="" className='cow'/>
+
+    </div>
   </Layout>
 )
 

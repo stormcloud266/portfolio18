@@ -1,0 +1,44 @@
+// @import url('https://fonts.googleapis.com/css?family=Dosis:200,400|Heebo:900,400');
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+  background: #1c2025;
+  color: $color-text-body;
+
+  .content-main {
+    flex: 3;
+    position: relative;
+  }
+
+  @include whenMedium {
+    // border: 10px solid transparent;
+    // border-bottom: none;
+    // border-image: linear-gradient(to right top, #aa3c84, #e74c3c);
+    // border-image-slice: 1;
+  }
+  @include whenLarge {
+    border: none;
+    width: 100%;
+    max-width: 1200px;
+    height: 660px;
+    max-height: 94vh;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.5);
+
+  }
+
+}
+.modal {
+  background: black;
+  display: none;
+  margin: 20px 0;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+}

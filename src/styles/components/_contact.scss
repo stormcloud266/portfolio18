@@ -1,0 +1,85 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+
+  &__body {
+    margin-bottom: 70px;
+  }
+
+  &__email {
+    color: rgba(231, 80, 106, 0.75);
+    transition: color .3s;
+    font-family: 'Heebo', sans-serif;
+    display: block;
+    margin-top: 10px;
+    &:hover, &:focus { color: rgba(231, 80, 106, 1); }
+  }
+
+  &__form {
+    flex: 4;
+    animation-delay: .2s;
+    animation-duration: .8s;
+
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input,
+    textarea,
+    button { font-family: 'Dosis', sans-serif; }
+
+    input,
+    textarea {
+      border: none;
+      padding: 10px;
+      box-shadow: 0px 3px 30px -5px rgba(0,0,0,0.3);
+      font-size: 19px;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+      color: $color-text-primary;
+      background: $color-gray-m;
+    }
+
+    textarea {
+      resize: none;
+      min-height: 160px;
+    }
+
+    label {
+      font-family: 'Heebo', sans-serif;
+      font-weight: 500;
+      color: $color-text-tertiary;
+    }
+
+    button {
+      box-shadow: 0px 3px 30px -5px rgba(0,0,0,0.3);
+      cursor: pointer;
+      padding: 15px 20px;
+      margin-top: 10px;
+      font-size: 16px;
+      border: none;
+      color: #eff3f9;
+      transition: all .3s;
+      width: 100%;
+      background: rgba(157, 150, 184, 0.2);
+      &:hover {
+        box-shadow: 0px 4px 20px -5px rgba(0,0,0,0.5);
+        background: rgba(157, 150, 184, 0.5);
+      }
+    }
+  }
+  @include whenMedium {
+
+  }
+  @include whenLarge {
+    flex-direction: row;
+    &__body {
+      flex: 3;
+      padding-right: 30px;
+      margin-top: 20px;
+    }
+
+  }
+
+}

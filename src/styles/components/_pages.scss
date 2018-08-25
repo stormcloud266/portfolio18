@@ -1,0 +1,60 @@
+.page {
+  animation-duration: .5s;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-size: cover;
+  position: relative;
+  top: 0; right: 0; bottom: 0; left: 0;
+  // height: 100%;
+
+  &__content {
+    padding: 40px 20px 120px;
+    position: relative;
+  }
+
+  &__title {
+    font-size: 150px;
+    text-transform: uppercase;
+    display: none;
+    line-height: .8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgba(($color-purple-l), 0.2);
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: -5px;
+    margin-left: -7px;
+    font-weight: 900;
+
+    &:after {
+      content: '';
+      display: block;
+      height: 2px;
+      width: 66.666%;
+      background: #d6183a;
+      position: absolute;
+      bottom: 20px;
+      left:20px;
+      opacity: .7;
+    }
+  }
+  @include whenMedium {
+  }
+  @include whenLarge {
+    top: 0px; right: 0; bottom: 0; left: 0;
+    height: 660px;
+    max-height: 94vh;
+    &__title {
+      display: block;
+
+    }
+    &__content {
+      padding: 150px 20px 0;
+      position: relative;
+    }
+    &.splash { background-image: url('../assets/splash.svg'); }
+    &.mountains { background-image: url('../assets/mountains.svg'); }
+    &.swoop { background-image: url('../assets/swoop.svg'); }
+
+  }
+}

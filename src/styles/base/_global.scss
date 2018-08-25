@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  height: 100%;
+  font-size: 19px;
+  font-size: 1.9rem;
+  background-color: #1c2025;
+  border-color: red;
+  animation: movingGradient 20s ease infinite;
+  background-size: 300% 300%;
+  position: relative;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+
+  @include whenMedium {
+  }
+  @include whenLarge {
+    background-color: none;
+    background-image: linear-gradient(to right top, #aa3c84, #e74c3c);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 20px;
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+}
+a { text-decoration: none; color: $color-pink;}
+li { list-style: none }

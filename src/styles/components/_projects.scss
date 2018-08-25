@@ -1,0 +1,13 @@
+.Projects  {
+
+  &__list-item {
+
+    // &:nth-child(1) { animation-delay: .2s; }
+    &:nth-child(1) > div {
+      // animation-delay: .2s;
+      padding-top: 0px;
+    }
+    &:last-child div { border-bottom: none; }
+  }
+
+}

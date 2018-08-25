@@ -1,10 +1,21 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import { StaticQuery, graphql } from 'gatsby';
 
-import Header from './header'
-import './layouts.scss'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faHome, faUserAstronaut, faWrench, faEnvelope, faMobileAlt, faCode, faTerminal, faHeadphones, faFire, faGlasses, faGlobe, faMusic, faBook } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+import '../styles/styles.scss';
+
+
+// import ScrollToTop from './ScrollToTop';
+import Sidebar from './Sidebar';
+
+
+library.add(fab, faHome, faUserAstronaut, faWrench, faEnvelope, faMobileAlt, faCode, faTerminal, faHeadphones, faFire, faGlasses, faGlobe, faMusic, faBook);
+
 
 const Layout = ({ children, data }) => (
   <StaticQuery
@@ -28,16 +39,11 @@ const Layout = ({ children, data }) => (
         >
           <html lang="en" />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 960,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
-          }}
-        >
-          {children}
+        <div className="App">
+          <Sidebar />
+          <div className="content-main">
+            {children}
+          </div>
         </div>
       </>
     )}

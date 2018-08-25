@@ -1,0 +1,77 @@
+.Home {
+  // position: relative;
+  // min-height: calc(100vh - 138px);
+
+  &__title {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 33px;
+    color: #dadee4;
+    margin-left: -1px;
+    max-width: 500px;
+  }
+  &__subtitle {
+    font-family: 'Heebo', sans-serif;
+    font-size: 19px;
+    color: $color-text-tertiary;
+    line-height: 1.4;
+  }
+  &__body {
+    margin-top: 40px;
+    max-width: 600px;
+  }
+  &__toolbelt {
+    margin-top: 40px;
+  }
+  &__toolbelt-title {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: $font-header-sm;
+    color: $color-text-primary;
+  }
+  &__tools-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 20px auto 0;
+
+    ul {
+      margin-right: 5px;
+      flex: 1;
+      // &:last-of-type {
+      //   padding-left: 40px;
+      // }
+    }
+    li {
+      position: relative;
+      margin-bottom: 5px;
+      background: $color-gray-m;
+      flex: 1;
+      padding: 10px 10px 10px 16px;
+      border-radius: 3px;
+
+      // &:before {
+      //   content: '';
+      //   height: 10px;
+      //   width: 10px;
+      //   background: $color-purple-l;
+      //   display: block;
+      //   border-radius: 100%;
+      //   display: flex;
+      //   position: absolute;
+      //   left: -20px;
+      //   top: 50%;
+      //   transform: translateY(-50%);
+      // }
+    }
+  }
+
+}
+.fire {
+  width: 96px;
+  height:96px;
+  position: absolute;
+  display: block;
+  bottom: 0;
+  right: 0;
+}

@@ -1,0 +1,13 @@
+.Submitted {
+  &__title {
+    font-size: $font-header-sm;
+    font-weight: 400;
+    font-family: 'Heebo', sans-serif;
+    color: $color-text-primary;
+    margin-bottom: 20px;
+    margin-top: 60px;
+  }
+  &__body {
+    max-width: 600px;
+  }
+}

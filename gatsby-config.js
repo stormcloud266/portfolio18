@@ -19,6 +19,14 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Dosis:200,400', 'Heebo:900,400']
+        }
+      }
+    },
+    {
       resolve: `gatsby-plugin-sitemap`
     },
     {
