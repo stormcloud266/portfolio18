@@ -93,6 +93,7 @@
 
   }
   @include whenLarge {
+
     &__title {
       font-size: $font-header-sm;
     }
@@ -125,6 +126,9 @@
 
     &__section {
       margin-bottom: 16rem;
+      &:last-of-type {
+        margin-bottom: 10rem;
+      }
     }
   }
 

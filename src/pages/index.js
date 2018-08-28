@@ -16,7 +16,7 @@ const Home = () => (
           </p>
         </div>
         <p className="Home__body">
-          I'm a fullstack web developer who is passionate about building clean, responsive websites from the ground up. If you need a fast, secure, and optimized website <a href="/contact">let's chat</a>.
+          New I'm a fullstack web developer who is passionate about building clean, responsive websites from the ground up using the latest technologies and frameworks. If you need a fast, secure, and optimized website <a href="/contact">let's chat</a>.
         </p>
         {/* <div className="Home__toolbelt">
           <h2 className="Home__toolbelt-title">Tools in My Belt</h2>

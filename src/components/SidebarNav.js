@@ -1,6 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import NavLink from './NavLink';
+import { Link } from "gatsby"
+
+// import ScrollToTop from './ScrollToTop';
 
 class SidebarNav extends React.Component {
 
@@ -23,33 +25,33 @@ class SidebarNav extends React.Component {
   render() {
     return (
       <nav className="SidebarNav">
-        <NavLink to="/">
+        <Link to="/" activeClassName='active-page'>
           <div className="SidebarNav__icon-wrapper">
             <FontAwesomeIcon icon="home" />
           </div>
           {this.state.mobile ? 'Home' : 'Base Camp'}
-        </NavLink>
+        </Link>
 
-        <NavLink to="about">
+        <Link to="about" activeClassName='active-page'>
           <div className="SidebarNav__icon-wrapper">
             <FontAwesomeIcon icon="user-astronaut" />
           </div>
           {this.state.mobile ? 'About' : 'Get To Know Me'}
-        </NavLink>
+        </Link>
 
-        <NavLink to="projects">
+        <Link to="projects" activeClassName='active-page'>
           <div className="SidebarNav__icon-wrapper">
             <FontAwesomeIcon icon="wrench" />
           </div>
           {this.state.mobile ? 'Projects' : 'See What I\'ve Built'}
-        </NavLink>
+        </Link>
 
-        <NavLink to="contact">
+        <Link to="contact" activeClassName='active-page'>
           <div className="SidebarNav__icon-wrapper">
             <FontAwesomeIcon icon="mobile-alt" />
           </div>
           {this.state.mobile ? 'Contact' : 'Get in Touch'}
-        </NavLink>
+        </Link>
 
       </nav>
 

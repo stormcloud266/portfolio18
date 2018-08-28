@@ -9,13 +9,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Modern Web Developer | Tawnee Allport',
+        short_name: 'Portfolio',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#30274d',
+        theme_color: '#30274d',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/favicon.png', // This path is relative to the root of the site.
       },
     },
     {
@@ -33,5 +33,12 @@ module.exports = {
       resolve: "gatsby-plugin-no-sourcemaps",
     },
     'gatsby-plugin-offline',
+    {
+    resolve: `gatsby-plugin-netlify`,
+    options: {
+      headers: {
+
+      }
+    },
   ],
 }

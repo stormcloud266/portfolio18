@@ -14,7 +14,7 @@ const Contact = (props) => (
         <a href="mailto:tawnee.la@gmail.com" className="Contact__email">tawnee.la@gmail.com</a>
       </div>
 
-        <form className="Contact__form fadeIn" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form className="Contact__form fadeIn" name="contact" method="post" action="/submitted" data-netlify="true" data-netlify-honeypot="bot-field">
 
         <input type="hidden" name="form-name" value="contact" />
 

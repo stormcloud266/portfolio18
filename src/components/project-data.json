@@ -89,17 +89,41 @@
         "__html": "Building a tabbed menu interface"
       },
       {
-        "__html": "Securing the site by setting up HTTPS, implementing input sanitation/verification, and adding CSP, HSTS, and XSS headers"
+        "__html": "Implementing media card and mobile app theme headers"
       }
     ],
     "icon": "html5",
     "demo": "https://flamboyant-edison-672ef1.netlify.com/",
-    "source": "https://github.com/stormcloud266/gridfolio",
+    "source": "https://github.com/stormcloud266/cafe-mock/",
     "tech": [
       "HTML5",
       "SCSS",
       "jQuery",
       "Gulp"
+    ]
+  },
+  {
+    "name": "Shuttered Photography",
+    "description": {"__html": "<p></p>"},
+    "tasks": [
+      {
+        "__html": "Designing a fast, mobile-ready website suitable for a café style restaurant"
+      },
+      {
+        "__html": "Utilizing lazy loading for images to increase site speed"
+      },
+      {
+        "__html": "Implementing media card and mobile app theme headers"
+      }
+    ],
+    "icon": "react",
+    "demo": "https://flamboyant-edison-672ef1.netlify.com/",
+    "source": "https://github.com/stormcloud266/cafe-mock/",
+    "tech": [
+      "React",
+      "SCSS",
+      "Gatsby",
+      "Netlify"
     ]
   }
 

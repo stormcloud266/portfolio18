@@ -10,6 +10,7 @@
     "@fortawesome/react-fontawesome": "^0.1.2",
     "gatsby": "next",
     "gatsby-plugin-manifest": "next",
+    "gatsby-plugin-netlify": "^2.0.0-rc.0",
     "gatsby-plugin-no-sourcemaps": "^2.0.0-rc.0",
     "gatsby-plugin-offline": "next",
     "gatsby-plugin-react-helmet": "next",
