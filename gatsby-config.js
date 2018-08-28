@@ -10,7 +10,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Modern Web Developer | Tawnee Allport',
-        short_name: 'Portfolio',
+        short_name: 'Tawnee\'s Portfolio',
         start_url: '/',
         background_color: '#30274d',
         theme_color: '#30274d',
@@ -33,12 +33,6 @@ module.exports = {
       resolve: "gatsby-plugin-no-sourcemaps",
     },
     'gatsby-plugin-offline',
-    {
-    resolve: `gatsby-plugin-netlify`,
-    options: {
-      headers: {
-
-      }
-    },
-  ],
+    'gatsby-plugin-netlify'
+  ]
 }
