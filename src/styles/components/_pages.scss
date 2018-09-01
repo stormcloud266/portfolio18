@@ -51,9 +51,9 @@
     max-height: 94vh;
     &__title {
       display: block;
-
     }
     &__content {
+      max-width: 100%;
       padding: 150px 20px 0;
       position: relative;
     }

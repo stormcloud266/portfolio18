@@ -19,18 +19,17 @@ const Contact = (props) => (
         <input type="hidden" name="form-name" value="contact" />
 
           <div>
-            <label htmlFor="name">Name</label>
             <input type="text" name="name" id="name" required/>
+            <label htmlFor="name">Name</label>
           </div>
           <div>
-
-            <label htmlFor="email">Email</label>
             <input type="text" name="email" id="email" required/>
+            <label htmlFor="email">Email</label>
           </div>
 
           <div>
-            <label htmlFor="message">Message</label>
             <textarea type="text" id="message" name="message" rows="" cols="" required></textarea>
+            <label htmlFor="message">Message</label>
           </div>
 
           <button type="submit">Send Message</button>

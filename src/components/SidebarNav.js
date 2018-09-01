@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from "gatsby"
+import { Link } from 'gatsby';
 
 // import ScrollToTop from './ScrollToTop';
 

@@ -32,6 +32,9 @@
     input,
     textarea {
       border: none;
+      border-bottom: 3px solid transparent;
+      border-image-slice: 1;
+      order: 2;
       padding: 10px;
       box-shadow: 0px 3px 30px -5px rgba(0,0,0,0.3);
       font-size: 19px;
@@ -39,17 +42,28 @@
       letter-spacing: 1px;
       color: $color-text-primary;
       background: $color-gray-m;
+      outline: none;
+      transition: all .3s;
+      &:focus {
+        border-image: linear-gradient(to right top, #c63f48, #9f49c2);
+
+        & + label {
+          color: $color-text-body;
+        }
+      }
     }
 
     textarea {
       resize: none;
-      min-height: 160px;
+      min-height: 160px;;
     }
 
     label {
       font-family: 'Heebo', sans-serif;
       font-weight: 500;
       color: $color-text-tertiary;
+      order: 1;
+      transition: color .3s;
     }
 
     button {
