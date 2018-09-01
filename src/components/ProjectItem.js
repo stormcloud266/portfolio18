@@ -25,7 +25,7 @@ const ProjectItem = (props) => {
       </p>
 
       <ul className="ProjectItem__tasks">
-          {props.data.tasks.map((task, ind) => <li className="ProjectItem__task" key={ind} dangerouslySetInnerHTML={task}></li>)}
+          {props.data.tasks.map((task, ind) => <li className="ProjectItem__task" key={ind}>{task}</li>)}
       </ul>
 
       {props.data.demo && <a className="ProjectItem__demo" href={props.data.demo}>Live Demo</a>}

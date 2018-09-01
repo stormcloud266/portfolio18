@@ -103,12 +103,8 @@
 
   &__tech {
     color: $color-text-tertiary;
-    margin-right: 10px;
+    margin-right: 14px;
   }
-  @include whenMedium {
-    padding: 6.5rem 10px;
-  }
-  @include whenLarge {
-    padding: 6.5rem 20px;
-  }
+  @include whenMedium { padding: 6.5rem 10px; }
+  @include whenLarge { padding: 6.5rem 20px; }
 }

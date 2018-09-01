@@ -16,7 +16,7 @@ const About = (props) => {
             Self taught web developer. love of coding started with python eventually switched to web technologies. Love to stay current in trends and look forward to the future of technology.
           </p>
           <div className="Home__toolbelt">
-            <p className="About__playlist-title">Tools in My Belt</p>
+            <p className="About__playlist-title">Comb Through My Toolbelt</p>
             <div className="Home__tools-list">
               <ul>
                 <li>React</li>
@@ -73,20 +73,26 @@ const About = (props) => {
             During highschool I became an avid reader of everything except my textbooks. Now I enjoy science fiction, science fact, philosophy, and poetry.
           </p>
 
-          <a href="https://www.google.com" className="About__reading-list">
-            <FontAwesomeIcon icon="book" />
-            <p>VALIS</p>
-          </a>
+          <p className="About__playlist-title">Peruse My Bookshelf</p>
 
-          <a href="https://www.google.com" className="About__reading-list">
-            <FontAwesomeIcon icon="book" />
-            <p>Daniel Fights a Hurricane</p>
-          </a>
+          <div className="About__reading-container">
+            <a href="https://www.goodreads.com/book/show/216377.VALIS" className="About__reading-list">
+              <FontAwesomeIcon icon="book" />
+              <p>VALIS</p>
+            </a>
 
-          <a href="https://www.google.com" className="About__reading-list">
-            <FontAwesomeIcon icon="book" />
-            <p>A Man's Search for Meaning</p>
-          </a>
+            <a href="https://www.goodreads.com/book/show/13072461-daniel-fights-a-hurricane?ac=1&from_search=true" className="About__reading-list">
+              <FontAwesomeIcon icon="book" />
+              <p>Daniel Fights a Hurricane</p>
+            </a>
+
+            <a href="https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning?ac=1&from_search=true" className="About__reading-list">
+              <FontAwesomeIcon icon="book" />
+              <p>Man's Search for Meaning</p>
+            </a>
+          </div>
+
+
 
         </div>
 
@@ -94,7 +100,7 @@ const About = (props) => {
       </div>
     </div>
   </Layout>
-    
+
   )
 }
 

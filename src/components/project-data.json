@@ -4,15 +4,9 @@
     "description": {
       "__html": "<p>This weather app was built with React, powered by Node, and styled with SCSS. It utilizes Google's <a href='https://developers.google.com/maps/documentation/geocoding/start'>Geocoding API</a> and Dark Sky's <a href='https://darksky.net/dev'>Weather API</a> to get weather data for searched locations.</p>"},
     "tasks": [
-      {
-        "__html": "Writing a function to integrate the <a href='https://erikflowers.github.io/weather-icons/'>weather icons</a> with the conditions info sent back from Dark Sky"
-      },
-      {
-        "__html": "Building a NodeJS server to host the app in order to eliminate CORS conflicts and to send the API keys securely"
-      },
-      {
-        "__html": "Deploying the app on Heroku which required setting up conditional port and API key variables"
-      }
+      "Writing a function to integrate the weather icons with the conditions info sent back from Dark Sky",
+      "Building a NodeJS server to host the app in order to eliminate CORS conflicts and to send the API keys securely",
+      "Deploying the app on Heroku which required setting up conditional port and API key variables"
     ],
     "icon": "react",
     "demo": "https://reactified-weather.herokuapp.com/",
@@ -29,15 +23,9 @@
     "name": "Expensify App",
     "description": {"__html": "<p>The Expensify App was the final project in the <a href='https://www.udemy.com/react-2nd-edition/learn/v4/overview'>Complete React Web Developer</a> Udemy Course. It is a fullstack budget app featuring a user authentication and persistent state via Firebase. The user can filter by date or expense amount, and add, search, edit, and delete expenses.</p>"},
     "tasks": [
-      {
-        "__html": "Setting up Jest as the testing suite"
-      },
-      {
-        "__html": "Connecting Firebase to the app to manage stored data securely and authenticating users via Google account"
-      },
-      {
-        "__html": "Configuring Webpack to use in this project and also as a boilerplate for future projects"
-      }
+      "Setting up Jest as the testing suite",
+      "Connecting Firebase to the app to manage stored data securely and authenticating users via Google account",
+      "Configuring Webpack to use in this project and also as a boilerplate for future projects"
     ],
     "icon": "react",
     "demo": "https://expensify-app-333.herokuapp.com/",
@@ -56,15 +44,9 @@
     "name": "Portfolio 1.0",
     "description": {"__html": "<p>My first portfolio website created for public release. I wanted a clean, responsive website that featured my projects and a working contact form. My main focus creating this project was learning website security, c-panel, and web hosting.</p>"},
     "tasks": [
-      {
-        "__html": "Using Flexbox and CSS Grid to create a fully responsive website"
-      },
-      {
-        "__html": "Configuring a working form that uses jQuery to send an ajax request and PHP on the server to parse the request and send the email"
-      },
-      {
-        "__html": "Securing the site by setting up HTTPS, implementing input sanitation/verification, and adding CSP, HSTS, and XSS headers"
-      }
+      "Using Flexbox and CSS Grid to create a fully responsive website",
+      "Configuring a working form that uses jQuery to send an ajax request and PHP on the server to parse the request and send the email",
+      "Securing the site by setting up HTTPS, implementing input sanitation/verification, and adding CSP, HSTS, and XSS headers"
     ],
     "icon": "html5",
     "demo": "https://www.tlacoding.com/",
@@ -79,18 +61,32 @@
     ]
   },
   {
+    "name": "Shuttered Photography",
+    "description": {"__html": "<p>For this project my main goal was to build a blog that could be easily updated by a non-technical client. I used <a href='https://www.gatsbyjs.org/'>GatsbyJS</a> to build the site, and GraphQL to query the blog posts which are stored as simple markdown files. I then connected all this to <a href='https://www.netlifycms.org/'>Netlify's CMS</a>, an intuitive interface to easily add new blog posts.</p>"},
+    "tasks": [
+      "Creating a lightweight, fast and secure blogging website",
+      "Hooking up the website to Netlify's content management system for easy blog post additions",
+      "Utilizing lazy loading for images to increase site speed"
+    ],
+    "icon": "react",
+    "demo": "https://naughty-khorana-38a3bb.netlify.com/",
+    "source": "https://github.com/stormcloud266/gatsby-photography",
+    "tech": [
+      "React",
+      "GraphQL",
+      "SCSS",
+      "GatsbyJS",
+      "Netlify CMS",
+      "Github API"
+    ]
+  },
+  {
     "name": "Café",
     "description": {"__html": "<p></p>"},
     "tasks": [
-      {
-        "__html": "Designing a fast, mobile-ready website suitable for a café style restaurant"
-      },
-      {
-        "__html": "Building a tabbed menu interface"
-      },
-      {
-        "__html": "Implementing media card and mobile app theme headers"
-      }
+      "Designing a fast, mobile-ready website suitable for a café style restaurant",
+      "Building a tabbed menu interface",
+      "Implementing media card and mobile app theme headers"
     ],
     "icon": "html5",
     "demo": "https://flamboyant-edison-672ef1.netlify.com/",
@@ -101,30 +97,5 @@
       "jQuery",
       "Gulp"
     ]
-  },
-  {
-    "name": "Shuttered Photography",
-    "description": {"__html": "<p></p>"},
-    "tasks": [
-      {
-        "__html": "Designing a fast, mobile-ready website suitable for a café style restaurant"
-      },
-      {
-        "__html": "Utilizing lazy loading for images to increase site speed"
-      },
-      {
-        "__html": "Implementing media card and mobile app theme headers"
-      }
-    ],
-    "icon": "react",
-    "demo": "https://flamboyant-edison-672ef1.netlify.com/",
-    "source": "https://github.com/stormcloud266/cafe-mock/",
-    "tech": [
-      "React",
-      "SCSS",
-      "Gatsby",
-      "Netlify"
-    ]
   }
-
 ]

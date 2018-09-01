@@ -75,17 +75,33 @@
     }
 
   }
+  &__reading-container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
   &__reading-list {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: flex-start;
     margin-top: 16px;
     color: $color-text-body;
+    background: $color-gray-m;
+    padding: 10px 20px;
+    transition: all .3s;
+    border-radius: 3px;
 
     svg {
-      // margin-right: 20px;
+      margin-right: 20px;
       font-size: 26px;
+      color: #686e78;
+      transition: all .3s;
+    }
+
+    &:hover {
+      background: #373b41;
+      color: $color-text-primary;
+      box-shadow: 0px 4px 30px -8px rgba(0,0,0,0.3);
+      svg { color: $color-purple-l; }
     }
   }
 

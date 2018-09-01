@@ -7,11 +7,10 @@
 
 
 .fadeIn {
-  animation: .8s fadeIn forwards;
+  animation: .6s fadeIn forwards;
   opacity: 0;
 }
 @keyframes fadeIn {
-  from { opacity: 0; }
   to { opacity: 1; }
 }
 
@@ -20,14 +19,11 @@
   animation: .8s fadeInUp forwards;
   position: relative;
   transform: translateY(30%);
-  // top: 150px;
   opacity: 0;
 }
 @keyframes fadeInUp {
   to {
     opacity: 1;
-    // top: 0;
     transform: translateY(0);
-
   }
 }

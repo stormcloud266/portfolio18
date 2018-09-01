@@ -17,15 +17,15 @@ const Sidebar = (props) => {
           </div>
 
           <div className="Sidebar__social-icons">
-            <a href="https://www.twitter.com"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
-            <a href="https://www.github.com"><FontAwesomeIcon icon={['fab', 'github']} /></a>
-            <a href="https://www.codepen.com"><FontAwesomeIcon icon={['fab', 'codepen']} /></a>
+            <a href="https://twitter.com/TA_Coding"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
+            <a href="https://github.com/stormcloud266"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+            <a href="https://codepen.io/stormcloud266"><FontAwesomeIcon icon={['fab', 'codepen']} /></a>
           </div>
         </div>
 
       </div>
       <SidebarNav />
-      <p className="Sidebar__legal">Copywrite 2018</p>
+      <p className="Sidebar__legal">Legal Stuff</p>
     </div>
   )
 }
