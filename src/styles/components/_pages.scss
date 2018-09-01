@@ -40,6 +40,10 @@
     }
   }
   @include whenMedium {
+    &__content {
+      max-width: 660px;
+      margin: 0 auto;
+    }
   }
   @include whenLarge {
     top: 0px; right: 0; bottom: 0; left: 0;

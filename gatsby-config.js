@@ -12,8 +12,8 @@ module.exports = {
         name: 'Modern Web Developer | Tawnee Allport',
         short_name: 'Tawnee\'s Portfolio',
         start_url: '/',
-        background_color: '#30274d',
-        theme_color: '#30274d',
+        background_color: '#2a2134',
+        theme_color: '#2a2134',
         display: 'minimal-ui',
         icon: 'src/assets/favicon.png', // This path is relative to the root of the site.
       },
