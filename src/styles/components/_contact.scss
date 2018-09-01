@@ -7,12 +7,12 @@
   }
 
   &__email {
-    color: rgba(231, 80, 106, 0.75);
+    color: $color-pink-l;
     transition: color .3s;
     font-family: 'Heebo', sans-serif;
     display: block;
     margin-top: 10px;
-    &:hover, &:focus { color: rgba(231, 80, 106, 1); }
+    &:hover, &:focus { color: $color-pink-m; }
   }
 
   &__form {

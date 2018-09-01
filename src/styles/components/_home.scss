@@ -29,6 +29,13 @@
     font-size: $font-header-sm;
     color: $color-text-primary;
   }
+  a {
+    transition: color .3s;
+    font-family: 'Heebo', sans-serif;
+    &:hover {
+      color: $color-pink-m;
+    }
+  }
   &__tools-list {
     display: flex;
     justify-content: space-between;

@@ -42,7 +42,7 @@
   },
   {
     "name": "Portfolio 1.0",
-    "description": {"__html": "<p>My first portfolio website created for public release. I wanted a clean, responsive website that featured my projects and a working contact form. My main focus creating this project was learning website security, c-panel, and web hosting.</p>"},
+    "description": {"__html": "<p>My first portfolio website created for public release. I wanted a clean, responsive website that featured my projects and a working contact form. My main focus creating this project was learning website security, c-panel, and web hosting. Built using my <a href='https://github.com/stormcloud266/templates/tree/master/website-project-postcss'>PostCSS boilerplate</a>.</p>"},
     "tasks": [
       "Using Flexbox and CSS Grid to create a fully responsive website",
       "Configuring a working form that uses jQuery to send an ajax request and PHP on the server to parse the request and send the email",
@@ -56,7 +56,7 @@
       "PostCSS",
       "jQuery",
       "PHP",
-      "Gulp",
+      "GulpJS",
       "Apache"
     ]
   },
@@ -81,8 +81,8 @@
     ]
   },
   {
-    "name": "Café",
-    "description": {"__html": "<p></p>"},
+    "name": "The Café",
+    "description": {"__html": "<p>I created this project to practice designing and developing a small business website. My aim was to use my <a href='https://github.com/stormcloud266/templates/tree/master/website-project'>SCSS boilerplate</a> to automate my workflow and provide a quick turn around from inception to completion.</p>"},
     "tasks": [
       "Designing a fast, mobile-ready website suitable for a café style restaurant",
       "Building a tabbed menu interface",
@@ -95,7 +95,7 @@
       "HTML5",
       "SCSS",
       "jQuery",
-      "Gulp"
+      "GulpJS"
     ]
   }
 ]

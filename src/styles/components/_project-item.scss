@@ -67,7 +67,7 @@
     padding: 2px 4px 3px;
     &:hover, &:focus {
       color: $color-text-primary;
-      background: rgba(84, 68, 142, 1);
+      background: $color-purple-m;
       box-shadow: 0 3px 20px -8px rgba(0,0,0,0.3);
     }
   }
@@ -87,7 +87,7 @@
     margin-right: 10px;
     background: rgba(84, 68, 142, 1);
     background: $color-purple-m;
-    &:hover, &:focus { background: lighten(rgba(84, 68, 142, 1), 10%); }
+    &:hover, &:focus { background: lighten($color-purple-m, 10%); }
   }
 
   &__code {

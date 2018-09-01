@@ -64,11 +64,12 @@
     }
     svg {
       font-size: 24px;
-      color: rgba(198, 90, 107, 0.75);
+      color: rgba($color-pink-l, 0.7);
       display: block;
       transition: all .3s;
       &:hover, &:focus {
-        color: rgba(214, 24, 58, 1);
+        // color: rgba(214, 24, 58, 1);
+        color: $color-pink-l;
         transform: scale(1.2);
       }
     }
@@ -80,7 +81,11 @@
     text-align: center;
     background: #373b41;
     font-size: 14px;
-    color: #707680;
+    color: #9ea4af;
+    span {
+      margin: 0 5px;
+      color: #6d727a;
+    }
   }
 
   @include whenMedium { padding: 20px 20px; }

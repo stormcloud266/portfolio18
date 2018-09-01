@@ -24,7 +24,8 @@ body {
   }
   @include whenLarge {
     background-color: none;
-    background-image: linear-gradient(to right top, #aa3c84, #e74c3c);
+    // background-image: linear-gradient(to right top, #aa3c84, #e74c3c);
+    background-image: linear-gradient(to right top, #c6303a, #9c3bc3);
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0 20px;
@@ -32,5 +33,5 @@ body {
     font-size: 1.8rem;
   }
 }
-a { text-decoration: none; color: $color-pink;}
+a { text-decoration: none; color: $color-pink-l; }
 li { list-style: none }
