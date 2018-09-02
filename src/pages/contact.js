@@ -13,6 +13,12 @@ const Contact = (props) => (
           I would love to help you or your business get found online. If you have a project in mind or are hiring, please fill out the form or email me directly, and we can start planning your next project as soon as possible.
         </p>
         <a href="mailto:tawnee.la@gmail.com" className="Contact__email">tawnee.la@gmail.com</a>
+        <div className="mobile-privacy">
+          <p>Copywrite 2018
+          <span>|</span>
+          <Link to="/privacy">Privacy Policy</Link>
+          </p>
+        </div>
       </div>
 
         <form className="Contact__form fadeIn" name="contact" method="post" action="/submitted" data-netlify="true" data-netlify-honeypot="bot-field">
@@ -35,15 +41,7 @@ const Contact = (props) => (
 
           <button type="submit">Send Message</button>
         </form>
-        <div className="mobile-privacy">
-          <p>
-            Copywrite 2018 <span>|</span> <Link to="/privacy">
-              {/* <FontAwesomeIcon icon="info-circle" /> */}
-              Privacy Policy
-            </Link>
-          </p>
 
-        </div>
       </div>
     </div>
     </Layout>
