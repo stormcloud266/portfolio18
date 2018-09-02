@@ -83,6 +83,21 @@
       }
     }
   }
+  .mobile-privacy {
+    color: $color-text-tertiary;
+    margin-top: 60px;
+    text-align: center;
+
+    svg { margin-right: 15px; }
+    span { margin: 0 10px; }
+    a {
+      color: $color-text-tertiary;
+      // font-style: italic;
+      font-size: 1.8rem;
+      transition: color .3s;
+      &:hover { color: $color-pink-l; }
+    }
+  }
   @include whenMedium {
 
   }
@@ -93,7 +108,7 @@
       padding-right: 30px;
       margin-top: 20px;
     }
-
+    .mobile-privacy { display: none; }
   }
 
 }

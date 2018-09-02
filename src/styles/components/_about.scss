@@ -154,3 +154,26 @@
     }
   }
 }
+
+.Home__tools-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 20px auto 0;
+
+  ul {
+    margin-right: 5px;
+    flex: 1;
+    // &:last-of-type {
+    //   padding-left: 40px;
+    // }
+  }
+  li {
+    position: relative;
+    margin-bottom: 5px;
+    background: $color-gray-m;
+    flex: 1;
+    padding: 10px 10px 10px 16px;
+    border-radius: 3px;
+  }
+}

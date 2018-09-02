@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import { Link } from 'gatsby';
 import SidebarNav from './SidebarNav';
 import pfp from '../assets/pfp.png';
 
@@ -25,7 +25,9 @@ const Sidebar = (props) => {
 
       </div>
       <SidebarNav />
-      <p className="Sidebar__legal">Copywrite 2018 <span>|</span> Legal Stuff</p>
+      <p className="Sidebar__legal">Copywrite 2018 <span>|</span> <Link to="/privacy">Privacy Policy</Link></p>
+
+
     </div>
   )
 }

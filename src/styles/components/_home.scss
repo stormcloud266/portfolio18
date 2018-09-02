@@ -36,49 +36,15 @@
       color: $color-pink-m;
     }
   }
-  &__tools-list {
-    display: flex;
-    justify-content: space-between;
-    max-width: 400px;
-    margin: 20px auto 0;
-
-    ul {
-      margin-right: 5px;
-      flex: 1;
-      // &:last-of-type {
-      //   padding-left: 40px;
-      // }
-    }
-    li {
-      position: relative;
-      margin-bottom: 5px;
-      background: $color-gray-m;
-      flex: 1;
-      padding: 10px 10px 10px 16px;
-      border-radius: 3px;
-
-      // &:before {
-      //   content: '';
-      //   height: 10px;
-      //   width: 10px;
-      //   background: $color-purple-l;
-      //   display: block;
-      //   border-radius: 100%;
-      //   display: flex;
-      //   position: absolute;
-      //   left: -20px;
-      //   top: 50%;
-      //   transform: translateY(-50%);
-      // }
-    }
-  }
 
 }
 .fire {
   width: 96px;
   height:96px;
   position: absolute;
-  display: block;
+  display: none;
   bottom: 0;
   right: 0;
+
+  @include whenLarge { display: block; }
 }

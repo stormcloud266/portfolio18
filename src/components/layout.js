@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faHome, faUserAstronaut, faWrench, faEnvelope, faMobileAlt, faCode, faTerminal, faHeadphones, faFire, faGlasses, faGlobe, faMusic, faBook } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUserAstronaut, faWrench, faEnvelope, faMobileAlt, faCode, faTerminal, faHeadphones, faFire, faGlasses, faGlobe, faMusic, faBook, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
 import '../styles/styles.scss';
@@ -14,7 +14,7 @@ import '../styles/styles.scss';
 import Sidebar from './Sidebar';
 
 
-library.add(fab, faHome, faUserAstronaut, faWrench, faEnvelope, faMobileAlt, faCode, faTerminal, faHeadphones, faFire, faGlasses, faGlobe, faMusic, faBook);
+library.add(fab, faHome, faUserAstronaut, faWrench, faEnvelope, faMobileAlt, faCode, faTerminal, faHeadphones, faFire, faGlasses, faGlobe, faMusic, faBook, faInfoCircle);
 
 
 const Layout = ({ children, data }) => (

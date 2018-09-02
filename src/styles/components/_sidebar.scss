@@ -84,6 +84,13 @@
     background: #373b41;
     font-size: 14px;
     color: #9ea4af;
+    a {
+      color: #9ea4af;
+      transition: color .3s;
+      &:hover {
+        color: $color-pink-l;
+      }
+    }
     span {
       margin: 0 5px;
       color: #6d727a;

@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout'
-
+import { Link } from "gatsby";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Contact = (props) => (
   <Layout>
@@ -34,8 +35,16 @@ const Contact = (props) => (
 
           <button type="submit">Send Message</button>
         </form>
+        <div className="mobile-privacy">
+          <p>
+            Copywrite 2018 <span>|</span> <Link to="/privacy">
+              {/* <FontAwesomeIcon icon="info-circle" /> */}
+              Privacy Policy
+            </Link>
+          </p>
 
-    </div>
+        </div>
+      </div>
     </div>
     </Layout>
   )
