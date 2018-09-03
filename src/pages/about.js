@@ -2,6 +2,12 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Layout from '../components/layout';
 
+const tools = [
+  'Javascript', 'React', 'Redux', 'Node', 'jQuery',
+  'HTML5', 'CSS3','PostCSS', 'SCSS',
+  'Heroku', 'Zeit', 'Git', 'Github', 'PHP', 'Gulp',
+  'Firebase', 'MongoDB', 'GraphQL', 'Webpack', 'Jest'
+]
 
 const About = (props) => {
   return (
@@ -18,27 +24,7 @@ const About = (props) => {
           <div className="Home__toolbelt">
             <p className="About__playlist-title">Comb Through My Toolbelt</p>
             <div className="Home__tools-list">
-              <ul>
-                <li>React</li>
-                <li>Node</li>
-                <li>SCSS</li>
-                <li>HTML</li>
-                <li>PostCSS</li>
-              </ul>
 
-              <ul>
-                <li>Gulp</li>
-                <li>Heroku</li>
-                <li>Github</li>
-                <li>PHP</li>
-              </ul>
-
-              <ul>
-                <li>Gulp</li>
-                <li>Heroku</li>
-                <li>Git</li>
-                <li>PHP</li>
-              </ul>
             </div>
           </div>
         </div>
@@ -51,18 +37,18 @@ const About = (props) => {
           </p>
           <p className="About__playlist-title">Check Out Some Playlists</p>
           <div className="About__playlist">
-            <div className="About__cover">
+            <a href="https://www.youtube.com/playlist?list=PLbimQysGO7mi4ds9xUEP6bAbbWSUdPbZc" className="About__cover">
               <FontAwesomeIcon icon="terminal" />
               <p>Coding</p>
-            </div>
+            </a>
             <div className="About__cover">
               <FontAwesomeIcon icon="headphones" />
               <p>Rockin'</p>
             </div>
-            <div className="About__cover">
-              <FontAwesomeIcon icon="fire" />
-              <p>Heavier Side</p>
-            </div>
+            <a href="https://www.youtube.com/playlist?list=PLbimQysGO7minVUbUZ4Bi1nbD2aXcN8Uz" className="About__cover">
+              <FontAwesomeIcon icon="cloud" />
+              <p>So Dreamy</p>
+            </a>
           </div>
 
         </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout'
 import { Link } from "gatsby";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Contact = (props) => (
   <Layout>
