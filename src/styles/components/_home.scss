@@ -2,6 +2,10 @@
   // position: relative;
   // min-height: calc(100vh - 138px);
 
+  &__section {
+    animation-delay: .2s;
+  }
+
   &__title {
     font-family: 'Heebo', sans-serif;
     font-weight: 400;
@@ -28,13 +32,6 @@
     font-weight: 400;
     font-size: $font-header-sm;
     color: $color-text-primary;
-  }
-  a {
-    transition: color .3s;
-    font-family: 'Heebo', sans-serif;
-    &:hover {
-      color: $color-pink-m;
-    }
   }
 
 }

@@ -2,8 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'gatsby';
 
-// import ScrollToTop from './ScrollToTop';
-
 class SidebarNav extends React.Component {
 
   state = {

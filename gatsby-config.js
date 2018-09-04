@@ -10,7 +10,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Modern Web Developer | Tawnee Allport',
-        short_name: 'Tawnee\'s Portfolio',
+        short_name: 'Portfolio',
         start_url: '/',
         background_color: '#2a2134',
         theme_color: '#2a2134',

@@ -19,10 +19,10 @@ const About = (props) => {
         <div className="About__section fadeInUp">
           <h2 className="About__title"><FontAwesomeIcon icon="globe" />website coder</h2>
           <p className="About__body">
-            Self taught web developer. love of coding started with python eventually switched to web technologies. Love to stay current in trends and look forward to the future of technology.
+            I am a self-taught web developer currently specializing in the MERN stack. Learning to code has been one of the most rewarding adventures of my life so far. I'm always on the lookout for <a href="https://codepen.io/collection/DoWgMQ/" className="link">design inspiration</a> and new ideas. 
           </p>
           <div className="Home__toolbelt">
-            <p className="About__playlist-title">Comb Through My Toolbelt</p>
+            <p className="About__playlist-title">My Toolbelt</p>
             <div className="Home__tools-list">
 
             </div>
