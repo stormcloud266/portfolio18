@@ -9,16 +9,12 @@ html {
 }
 body {
   height: 100%;
-  font-size: 19px;
-  font-size: 1.9rem;
+
   background-color: #1c2025;
   border-color: red;
   animation: movingGradient 20s ease infinite;
   background-size: 300% 300%;
   position: relative;
-  font-family: 'Dosis', sans-serif;
-  line-height: 1.6;
-  letter-spacing: 1px;
 
   @include whenMedium {
   }
@@ -35,3 +31,19 @@ body {
 }
 a { text-decoration: none; color: $color-pink-l; }
 li { list-style: none }
+
+.wf-active body {
+  font-size: 19px;
+  font-size: 1.9rem;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+.wf-loading body, .wf-inactive body, .wf-fontinactive body {
+  font-family: Verdana;
+  font-size: 16px;
+  line-height: 1.9;
+  font-weight: 100;
+  letter-spacing: 0.05px;
+  word-spacing: 0px;
+}

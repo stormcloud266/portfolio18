@@ -8,7 +8,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.2.0",
     "@fortawesome/free-solid-svg-icons": "^5.2.0",
     "@fortawesome/react-fontawesome": "^0.1.2",
-    "gatsby": "next",
+    "gatsby": "^2.0.0-rc.3",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-netlify": "^2.0.0-rc.0",
     "gatsby-plugin-no-sourcemaps": "^2.0.0-rc.0",

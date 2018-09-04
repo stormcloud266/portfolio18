@@ -10,14 +10,10 @@
   .content-main {
     flex: 3;
     position: relative;
-    height: calc(100vh - 160px);
   }
 
   @include whenMedium {
-    // border: 10px solid transparent;
-    // border-bottom: none;
-    // border-image: linear-gradient(to right top, #aa3c84, #e74c3c);
-    // border-image-slice: 1;
+    .content-main { height: calc(100vh - 160px); }
   }
   @include whenLarge {
     border: none;
