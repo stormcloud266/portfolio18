@@ -13,12 +13,22 @@
     color: #dadee4;
     margin-left: -1px;
     max-width: 500px;
+    line-height: 1;
+    margin-bottom: 10px;
   }
   &__subtitle {
     font-family: 'Heebo', sans-serif;
     font-size: 19px;
     color: $color-text-tertiary;
     line-height: 1.4;
+    &:after {
+      content: '';
+      display: block;
+      background: $color-purple-m;
+      height: 5px;
+      width: 60px;
+      margin-top: 10px;
+    }
   }
   &__body {
     margin-top: 40px;

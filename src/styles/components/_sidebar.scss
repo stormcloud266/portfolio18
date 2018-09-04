@@ -5,9 +5,7 @@
   justify-content: space-between;
   padding: 10px 20px;
   border-bottom: 3px solid transparent;
-  border-image: linear-gradient(to right top, #aa3c84, #e74c3c);
-  border-image: linear-gradient(to right top, #c63f48, #9f49c2);
-
+  border-image: linear-gradient(to right top, #c63f48, #9f49c2, $color-purple-m);
   border-image-slice: 1;
 
   &__profile {

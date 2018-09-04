@@ -4,9 +4,8 @@ import Layout from '../components/layout';
 
 const tools = [
   'Javascript', 'React', 'Redux', 'Node', 'jQuery',
-  'HTML5', 'CSS3','PostCSS', 'SCSS',
-  'Heroku', 'Zeit', 'Git', 'Github', 'PHP', 'Gulp',
-  'Firebase', 'MongoDB', 'GraphQL', 'Webpack', 'Jest'
+  'HTML5', 'CSS3','PostCSS', 'SCSS', 'Git', 'PHP', 'Gulp',
+  'Firebase', 'MongoDB', 'GraphQL', 'Jest'
 ]
 
 const About = (props) => {
@@ -19,11 +18,16 @@ const About = (props) => {
         <div className="About__section fadeInUp">
           <h2 className="About__title"><FontAwesomeIcon icon="globe" />website coder</h2>
           <p className="About__body">
-            I am a self-taught web developer currently specializing in the MERN stack. Learning to code has been one of the most rewarding adventures of my life so far. I'm always on the lookout for <a href="https://codepen.io/collection/DoWgMQ/" className="link">design inspiration</a> and new ideas. 
+            I am a self-taught web developer currently specializing in the MERN stack. Learning to code has been one of the most rewarding adventures of my life. I'm always on the lookout for <a href="https://codepen.io/collection/DoWgMQ/" className="link">design inspiration</a> and new ideas.
           </p>
-          <div className="Home__toolbelt">
+          <div className="About__toolbelt">
             <p className="About__playlist-title">My Toolbelt</p>
-            <div className="Home__tools-list">
+            <div className="About__tools-list">
+              <ul>
+              {tools.map(tool => (
+                <li className="About__tool" key={tool}>{tool}</li>
+              ))}
+            </ul>
 
             </div>
           </div>
