@@ -68,7 +68,7 @@ const About = (props) => {
           <p className="About__playlist-title">Check Out Some Playlists</p>
           <div className="About__playlist">
             <a href="https://www.youtube.com/playlist?list=PLbimQysGO7mi4ds9xUEP6bAbbWSUdPbZc" className="About__cover">
-              <FontAwesomeIcon icon="terminal" />
+              <FontAwesomeIcon icon={'code'}/>
               <p>Coding</p>
             </a>
             <div className="About__cover">
