@@ -5,7 +5,7 @@
   justify-content: space-between;
   padding: 10px 20px;
   border-bottom: 3px solid transparent;
-  border-image: linear-gradient(to right top, #c63f48, #9f49c2, $color-purple-m);
+  border-image: linear-gradient(to right top, #c63f48, #9f49c2);
   border-image-slice: 1;
 
   &__profile {
@@ -28,7 +28,7 @@
     height: 95px;
     width: 95px;
     background: #373b41;
-    border: 3px solid rgba($color-purple-l, 0.6);
+    border: 3px solid #7e6d96;
     box-shadow: 0px 4px 30px -4px rgba(0,0,0,0.6);
   }
   &__status-wrapper {

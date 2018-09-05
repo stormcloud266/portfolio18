@@ -23,11 +23,23 @@ const About = (props) => {
           <div className="About__toolbelt">
             <p className="About__playlist-title">My Toolbelt</p>
             <div className="About__tools-list">
-              <ul>
-              {tools.map(tool => (
-                <li className="About__tool" key={tool}>{tool}</li>
-              ))}
-            </ul>
+
+
+            <div className="tools">
+              <p className="tools__title">
+                <FontAwesomeIcon icon="terminal" />
+                ls core_skills
+              </p>
+              <ul className="tools__list">
+                <li>React</li>
+                <li>Node</li>
+                <li>Firebase</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+
 
             </div>
           </div>
