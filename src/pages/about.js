@@ -40,6 +40,20 @@ const About = (props) => {
               </ul>
             </div>
 
+            <div className="tools">
+              <p className="tools__title">
+                <FontAwesomeIcon icon="terminal" />
+                ls <span>additional_tech</span>
+              </p>
+              <ul className="tools__list">
+                <li>PHP</li>
+                <li>GraphQL</li>
+                <li>Firebase</li>
+                <li>Jest</li>
+                <li>Gulp</li>
+              </ul>
+            </div>
+
 
             </div>
           </div>
