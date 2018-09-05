@@ -39,8 +39,9 @@
     }
   }
   @include whenMedium {
-    position: absolute;
-
+    position: relative;
+    min-height: calc(100vh - 160px);
+    background-attachment: fixed;
     &__content {
       max-width: 660px;
       margin: 0 auto;
@@ -52,9 +53,11 @@
 
   }
   @include whenLarge {
-    top: 0px; right: 0; bottom: 0; left: 0;
+    top: 0; right: 0; bottom: 0; left: 0;
     height: 660px;
     max-height: 94vh;
+    background-attachment: scroll;
+
     &__title {
       display: block;
     }

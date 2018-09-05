@@ -2,12 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Layout from '../components/layout';
 
-const tools = [
-  'Javascript', 'React', 'Redux', 'Node', 'jQuery',
-  'HTML5', 'CSS3','PostCSS', 'SCSS', 'Git', 'PHP', 'Gulp',
-  'Firebase', 'MongoDB', 'GraphQL', 'Jest'
-]
-
 const About = (props) => {
   return (
     <Layout>

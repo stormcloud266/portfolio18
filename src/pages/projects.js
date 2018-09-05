@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import ProjectItem from '../components/ProjectItem';
 import Layout from '../components/layout'
 
