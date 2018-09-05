@@ -28,7 +28,7 @@ const About = (props) => {
             <div className="tools">
               <p className="tools__title">
                 <FontAwesomeIcon icon="terminal" />
-                ls <span>core_skills</span>
+                core_skills
               </p>
               <ul className="tools__list">
                 <li>React</li>
@@ -43,7 +43,7 @@ const About = (props) => {
             <div className="tools">
               <p className="tools__title">
                 <FontAwesomeIcon icon="terminal" />
-                ls <span>additional_tech</span>
+                additional_tech
               </p>
               <ul className="tools__list">
                 <li>PHP</li>
