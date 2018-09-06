@@ -33,6 +33,7 @@ const About = (props) => {
                 <li>CSS3</li>
                 <li>PostCSS</li>
                 <li>SCSS</li>
+                <li>MongoDB</li>
               </ul>
             </div>
 
@@ -44,7 +45,6 @@ const About = (props) => {
               <ul className="tools__list">
                 <li>Redux</li>
                 <li>PHP</li>
-                <li>MongoDB</li>
                 <li>Firebase</li>
                 <li>Electron</li>
                 <li>GraphQL</li>
@@ -84,7 +84,7 @@ const About = (props) => {
         <div className="About__section fadeInUp">
           <h2 className="About__title"><FontAwesomeIcon icon="glasses" />book skimmer</h2>
           <p className="About__body">
-            During highschool I became an avid reader of everything except my textbooks. Now I enjoy science fiction, science fact, philosophy, and poetry.
+            During high school I became an avid reader of everything except my textbooks. Now I enjoy science fiction, science fact, philosophy, and poetry.
           </p>
 
           <p className="About__playlist-title">Peruse My Bookshelf</p>

@@ -21,7 +21,7 @@
   },
   {
     "name": "Expensify App",
-    "description": {"__html": "<p>The Expensify App was the final project in the <a href='https://www.udemy.com/react-2nd-edition/learn/v4/overview'>Complete React Web Developer</a> Udemy Course. It is a fullstack budget app featuring a user authentication and persistent state via Firebase. The user can filter by date or expense amount, and add, search, edit, and delete expenses.</p>"},
+    "description": {"__html": "<p>The Expensify App was the final project in the <a href='https://www.udemy.com/react-2nd-edition/learn/v4/overview'>Complete React Web Developer</a> Udemy Course. It is a fullstack budget app featuring user authentication and a persistent state via Firebase. The user can filter by date or expense amount, and add, search, edit, and delete expenses.</p>"},
     "tasks": [
       "Setting up Jest as the testing suite",
       "Connecting Firebase to the app to manage stored data securely and authenticating users via Google account",
@@ -62,7 +62,7 @@
   },
   {
     "name": "Shuttered Photography",
-    "description": {"__html": "<p>For this project my main goal was to build a blog that could be easily updated by a non-technical client. I used <a href='https://www.gatsbyjs.org/'>GatsbyJS</a> to build the site, and GraphQL to query the blog posts which are stored as simple markdown files. I then connected all this to <a href='https://www.netlifycms.org/'>Netlify's CMS</a>, an intuitive interface to easily add new blog posts.</p>"},
+    "description": {"__html": "<p>For this project my main goal was to build a blog that could be easily updated by a non-technical client. I used <a href='https://www.gatsbyjs.org/'>GatsbyJS</a> to build the site, and GraphQL to query the blog posts which are stored as simple markdown files. I then connected all this to <a href='https://www.netlifycms.org/'>Netlify's CMS</a>, an intuitive interface, to easily add and edit new blog posts.</p>"},
     "tasks": [
       "Creating a lightweight, fast and secure blogging website",
       "Hooking up the website to Netlify's content management system for easy blog post additions",
