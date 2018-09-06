@@ -7,6 +7,15 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-121296920-3",
+        head: false,
+        anonymize: true,
+        respectDNT: true
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Modern Web Developer | Tawnee Allport',
