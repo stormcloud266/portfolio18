@@ -33,8 +33,13 @@ const Layout = ({ children, data }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            {  name: 'description', content: 'Get found online with fast, responsive website built from the ground up. Tawnee Allport is a freelance web developer and designer based out of Wyoming.' },
+            { name:"twitter:card", content: "summary" },
+            { name:"twitter:site", content: "@TA_Coding" },
+            { name: "twitter:title", content: "Modern Web Developer | Tawnee Allport"},
+            { name:"twitter:description", content:"Get found online with fast, responsive website built from the ground up. Tawnee Allport is a freelance web developer and designer based out of Wyoming."},
+            { name:"twitter:image", content: "https://www.tawneeallport.com/pfp.png" },
+            { name:"twitter:image:alt", content: "tawnee's 8 bit profile picture" },
           ]}
         >
           <html lang="en" />
