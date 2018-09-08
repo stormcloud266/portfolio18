@@ -9,7 +9,7 @@ const Home = () => (
     <div className="page mountains fadeIn">
       <div className="Home page__content">
         <p className="page__title">Home</p>
-        <div className="Home__section">
+        <div className="Home__section fadeIn">
           <div>
             <h2 className="Home__title">Hey, I'm Tawnee</h2>
             <p className="Home__subtitle">
