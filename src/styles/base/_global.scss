@@ -9,12 +9,20 @@ html {
 }
 body {
 
-  font-family: Verdana;
-  font-size: 16px;
-  line-height: 1.9;
+  // font-family: Verdana;
+  // font-size: 16px;
+  // line-height: 1.9;
+  // font-weight: 400;
+  // letter-spacing: 0.05px;
+  // word-spacing: 0px;
+
+  font-size: 19px;
+  font-size: 1.9rem;
+  font-family: 'Dosis', Arial, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1px;
   font-weight: 400;
-  letter-spacing: 0.05px;
-  word-spacing: 0px;
+
 
   height: 100%;
   background-color: #1c2025;
@@ -37,16 +45,16 @@ body {
 a { text-decoration: none; color: $color-purple-l; }
 li { list-style: none }
 
-.wf-active body {
-  font-size: 19px;
-  font-size: 1.9rem;
-  font-family: 'Dosis', sans-serif;
-  line-height: 1.6;
-  letter-spacing: 1px;
-  font-weight: 400;
-
-  @include whenLarge {
-    font-size: 18px;
-    font-size: 1.8rem;
-  }
-}
+// .wf-active body {
+//   font-size: 19px;
+//   font-size: 1.9rem;
+//   font-family: 'Dosis', sans-serif;
+//   line-height: 1.6;
+//   letter-spacing: 1px;
+//   font-weight: 400;
+//
+//   @include whenLarge {
+//     font-size: 18px;
+//     font-size: 1.8rem;
+//   }
+// }
