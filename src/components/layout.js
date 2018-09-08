@@ -30,7 +30,7 @@ const Layout = ({ children, data }) => (
     `}
     render={data => (
       <>
-      <Head />
+      <Head data={data} />
         <div className="App">
           <Sidebar />
           <div className="content-main">

@@ -1,10 +1,10 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-const Head = (props) => {
+const Head = ({data}) => {
   return (
     <Helmet
-      title={props.data.site.siteMetadata.title}
+      title={data.site.siteMetadata.title}
       meta={[
         {  name: 'description', content: 'Get found online with a fast, responsive website built from the ground up. Tawnee Allport is a freelance web developer and designer based out of Wyoming.' },
         { name:"twitter:card", content: "summary" },
@@ -20,6 +20,7 @@ const Head = (props) => {
             "@context": "http://schema.org"
         }
     `}</script>
+
       <html lang="en" />
     </Helmet>
   )
