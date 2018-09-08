@@ -8,17 +8,17 @@ class SidebarNav extends React.Component {
     mobile: false
   }
 
- //  componentDidMount() {
- //    this.getWindowSize();
- //    window.addEventListener("resize", this.getWindowSize);
- //  }
- //  componentWillUnmount() {
- //    window.removeEventListener("resize", this.getWindowSize);
- //  }
- //
- //  getWindowSize = () => {
- //   this.setState({ mobile: window.innerWidth < 960 });
- // }
+  componentDidMount() {
+    this.getWindowSize();
+    window.addEventListener("resize", this.getWindowSize);
+  }
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.getWindowSize);
+  }
+
+  getWindowSize = () => {
+   this.setState({ mobile: window.innerWidth < 960 });
+ }
 
   render() {
     return (
