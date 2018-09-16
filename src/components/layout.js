@@ -8,8 +8,6 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 
 import '../styles/styles.scss';
 
-
-// import ScrollToTop from './ScrollToTop';
 import Head from './Head';
 import Sidebar from './Sidebar';
 
