@@ -61,6 +61,24 @@
     ]
   },
   {
+    "name": "Orion's Belts",
+    "description": {"__html": "<p>I wanted to design a one page, mock small business website to practice layout design and speedy image loading. It features multiple navigation menus with smooth scrolling, and a custom built modal that dynamically changes when a gallery image is clicked.</p>"},
+    "tasks": [
+      "Constructing a lazily loaded image gallery with svg draw in effect",
+      "Adding a custom developed, responsive modal to the gallery",
+      "Condensing the icons to an svg sprite"
+    ],
+    "icon": "react",
+    "demo": "https://orions-belts.netlify.com/",
+    "source": "https://github.com/stormcloud266/orions-belts",
+    "tech": [
+      "React",
+      "GraphQL",
+      "SCSS",
+      "GatsbyJS"
+    ]
+  },
+  {
     "name": "Shuttered Photography",
     "description": {"__html": "<p>For this project my main goal was to build a blog that could be easily updated by a non-technical client. I used <a href='https://www.gatsbyjs.org/'>GatsbyJS</a> to build the site, and GraphQL to query the blog posts which are stored as simple markdown files. I then connected all this to <a href='https://www.netlifycms.org/'>Netlify's CMS</a>, an intuitive interface, to easily add and edit new blog posts.</p>"},
     "tasks": [
