@@ -11,7 +11,6 @@ import '../styles/styles.scss';
 import Head from './Head';
 import Sidebar from './Sidebar';
 
-
 library.add(fab, faHome, faUserAstronaut, faWrench, faEnvelope, faMobileAlt, faCode, faTerminal, faHeadphones, faCloud, faGlasses, faGlobe, faMusic, faBook, faInfoCircle);
 
 

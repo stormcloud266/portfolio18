@@ -6,6 +6,7 @@
   height: 100%;
   background: #1c2025;
   color: $color-text-body;
+  
 
   .content-main {
     flex: 3;
@@ -31,11 +32,4 @@
 
   }
 
-}
-.modal {
-  background: black;
-  display: none;
-  margin: 20px 0;
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
 }
