@@ -1,9 +1,13 @@
 import React from 'react';
 import Layout from '../components/layout'
 import { Link } from "gatsby";
+import Helmet from 'react-helmet';
 
 const Contact = (props) => (
   <Layout>
+    <Helmet>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    </Helmet>
     <div className="page splash fadeIn">
     <div className="Contact page__content">
       <p className="page__title">Contact</p>
@@ -20,7 +24,7 @@ const Contact = (props) => (
         </div>
       </div>
 
-        <form className="Contact__form fadeIn" name="contact" method="post" action="/submitted" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form className="Contact__form fadeIn" name="contact" method="post" action="/submitted" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true">
 
         <input type="hidden" name="form-name" value="contact" />
 
@@ -39,6 +43,8 @@ const Contact = (props) => (
           </div>
 
           <button type="submit">Send Message</button>
+          <div className="g-recaptcha" data-sitekey="6Lf684YUAAAAAHTO2-sp25HquBO-vZeg8MWrd5Ov"></div>
+
         </form>
 
       </div>
