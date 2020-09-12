@@ -25,10 +25,8 @@ body {
   }
   @include whenLarge {
     background-color: none;
-    // background-image: linear-gradient(to right top, #aa3c84, #e74c3c);
     background-image: linear-gradient(to right top, #c63f48, #9f49c2);
     background-repeat: no-repeat;
-    // background-attachment: fixed;
     margin: 0 20px;
 
   }

@@ -43,7 +43,6 @@ const Contact = (props) => (
           </div>
 
           <button type="submit">Send Message</button>
-          <div className="g-recaptcha" data-sitekey="6Lf684YUAAAAAHTO2-sp25HquBO-vZeg8MWrd5Ov"></div>
 
         </form>
 

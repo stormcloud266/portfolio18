@@ -30,21 +30,21 @@ class SidebarNav extends React.Component {
           {this.state.mobile ? 'Home' : 'Base Camp'}
         </Link>
 
-        <Link to="about" activeClassName='active-page'>
+        <Link to="/about" activeClassName='active-page'>
           <div className="SidebarNav__icon-wrapper">
             <FontAwesomeIcon icon="user-astronaut" />
           </div>
           {this.state.mobile ? 'About' : 'Get To Know Me'}
         </Link>
 
-        <Link to="projects" activeClassName='active-page'>
+        <Link to="/projects" activeClassName='active-page'>
           <div className="SidebarNav__icon-wrapper">
             <FontAwesomeIcon icon="wrench" />
           </div>
           {this.state.mobile ? 'Projects' : 'See What I\'ve Built'}
         </Link>
 
-        <Link to="contact" activeClassName='active-page'>
+        <Link to="/contact" activeClassName='active-page'>
           <div className="SidebarNav__icon-wrapper">
             <FontAwesomeIcon icon="mobile-alt" />
           </div>

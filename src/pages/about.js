@@ -12,7 +12,7 @@ const About = (props) => {
         <div className="About__section fadeInUp">
           <h2 className="About__title"><FontAwesomeIcon icon="globe" />website coder</h2>
           <p className="About__body">
-            I am a self-taught web developer currently specializing in the MERN stack. Learning to code has been one of the most rewarding adventures of my life. I'm always on the lookout for <a href="https://codepen.io/collection/DoWgMQ/" className="link">design inspiration</a> and new ideas.
+            I am a self-taught web developer currently specializing in the JavaScript and React. Learning to code has been one of the most rewarding adventures of my life. I'm always on the lookout for <a href="https://codepen.io/collection/DoWgMQ/" className="link">design inspiration</a> and new challenges to solve.
           </p>
           <div className="About__toolbelt">
             <p className="About__playlist-title">My Toolbelt</p>
@@ -33,7 +33,6 @@ const About = (props) => {
                 <li>CSS3</li>
                 <li>PostCSS</li>
                 <li>SCSS</li>
-                <li>MongoDB</li>
               </ul>
             </div>
 
@@ -44,6 +43,7 @@ const About = (props) => {
               </p>
               <ul className="tools__list">
                 <li>Redux</li>
+                <li>MongoDB</li>
                 <li>PHP</li>
                 <li>Firebase</li>
                 <li>Electron</li>

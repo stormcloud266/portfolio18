@@ -1,5 +1,24 @@
 [
   {
+    "name": "All American Building Services",
+    "description": {
+      "__html": "<p>This weather app was built with React, powered by Node, and styled with SCSS. It utilizes Google's <a href='https://developers.google.com/maps/documentation/geocoding/start'>Geocoding API</a> and Dark Sky's <a href='https://darksky.net/dev'>Weather API</a> to get weather data for searched locations. Built using my <a href='https://github.com/stormcloud266/templates/tree/master/minimal-react-boilerplate'>Minimal React Boilerplate</a></p>"},
+    "tasks": [
+      "Developing a custom, reusable gallery component",
+      "Building out local landing pages for SEO and Facebook ads",
+      "Integrating a headless CMS for easy content updates and blog publishing"
+    ],
+    "icon": "react",
+    "site": "https://aabscorp.com",
+    "source": "https://github.com/stormcloud266/react-weather",
+    "tech": [
+      "Gatsby",
+      "SCSS",
+      "Contentful",
+      "Netlify"
+    ]
+  },
+  {
     "name": "Reactified Weather",
     "description": {
       "__html": "<p>This weather app was built with React, powered by Node, and styled with SCSS. It utilizes Google's <a href='https://developers.google.com/maps/documentation/geocoding/start'>Geocoding API</a> and Dark Sky's <a href='https://darksky.net/dev'>Weather API</a> to get weather data for searched locations. Built using my <a href='https://github.com/stormcloud266/templates/tree/master/minimal-react-boilerplate'>Minimal React Boilerplate</a></p>"},
