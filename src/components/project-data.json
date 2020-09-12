@@ -2,7 +2,7 @@
   {
     "name": "All American Building Services",
     "description": {
-      "__html": "<p>AABS wanted a complete redesign and rebuild of their old website. A sophisticated dark theme with an improved experience for mobile users. Also wanted a blog section.</p>"},
+      "__html": "<p>AABS chose a complete redesign and rebuild of their old website. They wanted a sophisticated dark theme with an improved experience for mobile users. The result was a static website generated with Gatsby using Contentful as the CMS. This provides faster load speeds, better security, and easy content updates.</p>"},
     "tasks": [
       "Developing a custom, reusable gallery component that was keyboard accessible",
       "Building out local landing pages for SEO and Facebook ads",
@@ -21,12 +21,12 @@
   {
     "name": "Cody Bookkeeping",
     "description": {
-      "__html": "<p>This weather app was built with React, powered by Node, and styled with SCSS. It utilizes Google's <a href='https://developers.google.com/maps/documentation/geocoding/start'>Geocoding API</a> and Dark Sky's <a href='https://darksky.net/dev'>Weather API</a> to get weather data for searched locations. Built using my <a href='https://github.com/stormcloud266/templates/tree/master/minimal-react-boilerplate'>Minimal React Boilerplate</a></p>"},
+      "__html": "<p>The client was a new small business looking to establish their online presence with a website. A static site was chosen because of the minimal long-term maintenance and low-cost hosting options. I developed a custom testimonial slider to showcase their reviews.</p>"},
     "tasks": [
-      "Establishing an online presence for a new small business",
+      "Establishing an online presence for a new small business with a reliable, responsive website",
       "Developing a custom testimonials slider component",
       "Building a form and connecting it to client's email with Netlify Forms",
-      ""
+      "Adding JSON LD schema markup for rich results in search engines"
     ],
     "icon": "react",
     "site": "https://www.codybookkeeping.net",
@@ -39,7 +39,7 @@
   {
     "name": "Reactified Weather",
     "description": {
-      "__html": "<p>This weather app was built with React, powered by Node, and styled with SCSS. It utilizes Google's <a href='https://developers.google.com/maps/documentation/geocoding/start'>Geocoding API</a> and Dark Sky's <a href='https://darksky.net/dev'>Weather API</a> to get weather data for searched locations. Built using my <a href='https://github.com/stormcloud266/templates/tree/master/minimal-react-boilerplate'>Minimal React Boilerplate</a>.</p>"},
+      "__html": "<p>This weather app was built with React, powered by Node, and styled with SCSS. It utilizes Google's Geocoding API and Dark Sky's Weather API to get weather data for searched locations. Built using my <a href='https://github.com/stormcloud266/templates/tree/master/minimal-react-boilerplate'>Minimal React Boilerplate</a>.</p>"},
     "tasks": [
       "Writing a function to integrate the weather icons with the conditions info sent back from Dark Sky",
       "Building a NodeJS server to host the app in order to eliminate CORS conflicts and to send the API keys securely",
