@@ -22,11 +22,10 @@
     line-height: .8;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -8px;
     color: rgba(($color-purple-l), 0.2);
     font-family: 'Heebo', sans-serif;
     letter-spacing: -5px;
-    margin-left: -7px;
     font-weight: 900;
 
     &:after {

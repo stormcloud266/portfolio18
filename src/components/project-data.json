@@ -2,15 +2,15 @@
   {
     "name": "All American Building Services",
     "description": {
-      "__html": "<p>This weather app was built with React, powered by Node, and styled with SCSS. It utilizes Google's <a href='https://developers.google.com/maps/documentation/geocoding/start'>Geocoding API</a> and Dark Sky's <a href='https://darksky.net/dev'>Weather API</a> to get weather data for searched locations. Built using my <a href='https://github.com/stormcloud266/templates/tree/master/minimal-react-boilerplate'>Minimal React Boilerplate</a></p>"},
+      "__html": "<p>AABS wanted a complete redesign and rebuild of their old website. A sophisticated dark theme with an improved experience for mobile users. Also wanted a blog section.</p>"},
     "tasks": [
-      "Developing a custom, reusable gallery component",
+      "Developing a custom, reusable gallery component that was keyboard accessible",
       "Building out local landing pages for SEO and Facebook ads",
-      "Integrating a headless CMS for easy content updates and blog publishing"
+      "Integrating a headless CMS for easy content updates and blog publishing",
+      "Implementing a complete redesign and redevelopment focusing on mobile responsiveness, accessibility, and SEO"
     ],
     "icon": "react",
     "site": "https://aabscorp.com",
-    "source": "https://github.com/stormcloud266/react-weather",
     "tech": [
       "Gatsby",
       "SCSS",
@@ -19,9 +19,27 @@
     ]
   },
   {
-    "name": "Reactified Weather",
+    "name": "Cody Bookkeeping",
     "description": {
       "__html": "<p>This weather app was built with React, powered by Node, and styled with SCSS. It utilizes Google's <a href='https://developers.google.com/maps/documentation/geocoding/start'>Geocoding API</a> and Dark Sky's <a href='https://darksky.net/dev'>Weather API</a> to get weather data for searched locations. Built using my <a href='https://github.com/stormcloud266/templates/tree/master/minimal-react-boilerplate'>Minimal React Boilerplate</a></p>"},
+    "tasks": [
+      "Establishing an online presence for a new small business",
+      "Developing a custom testimonials slider component",
+      "Building a form and connecting it to client's email with Netlify Forms",
+      ""
+    ],
+    "icon": "react",
+    "site": "https://www.codybookkeeping.net",
+    "tech": [
+      "Gatsby",
+      "SCSS",
+      "Netlify"
+    ]
+  },
+  {
+    "name": "Reactified Weather",
+    "description": {
+      "__html": "<p>This weather app was built with React, powered by Node, and styled with SCSS. It utilizes Google's <a href='https://developers.google.com/maps/documentation/geocoding/start'>Geocoding API</a> and Dark Sky's <a href='https://darksky.net/dev'>Weather API</a> to get weather data for searched locations. Built using my <a href='https://github.com/stormcloud266/templates/tree/master/minimal-react-boilerplate'>Minimal React Boilerplate</a>.</p>"},
     "tasks": [
       "Writing a function to integrate the weather icons with the conditions info sent back from Dark Sky",
       "Building a NodeJS server to host the app in order to eliminate CORS conflicts and to send the API keys securely",
@@ -57,26 +75,6 @@
       "Jest",
       "Webpack",
       "Heroku"
-    ]
-  },
-  {
-    "name": "Portfolio 1.0",
-    "description": {"__html": "<p>My first portfolio website created for public release. I wanted a clean, responsive website that featured my projects and a working contact form. My main focus creating this project was learning website security, c-panel, and web hosting. Built using my <a href='https://github.com/stormcloud266/templates/tree/master/website-project-postcss'>PostCSS boilerplate</a>.</p>"},
-    "tasks": [
-      "Using Flexbox and CSS Grid to create a fully responsive website",
-      "Configuring a working form that uses jQuery to send an ajax request and PHP on the server to parse the request and send the email",
-      "Securing the site by setting up HTTPS, implementing input sanitation/verification, and adding CSP, HSTS, and XSS headers"
-    ],
-    "icon": "html5",
-    "demo": "https://www.tlacoding.com/",
-    "source": "https://github.com/stormcloud266/gridfolio",
-    "tech": [
-      "HTML5",
-      "PostCSS",
-      "jQuery",
-      "PHP",
-      "GulpJS",
-      "Apache"
     ]
   },
   {

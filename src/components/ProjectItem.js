@@ -34,7 +34,7 @@ const ProjectItem = (props) => {
           className="ProjectItem__demo" 
           href={props.data.demo}
           target="_blank"
-          rel="_noreferrer"
+          rel="noreferrer"
         >Live Demo</a>
         )
       }
@@ -45,12 +45,23 @@ const ProjectItem = (props) => {
             className="ProjectItem__demo" 
             href={props.data.site}
             target="_blank"
-            rel="_noreferrer"
+            rel="noreferrer"
           >Live Site</a>
         )
       }
 
-      <a className="ProjectItem__code" href={props.data.source}>See the Code</a>
+      {
+        props.data.source && (
+          <a 
+            className="ProjectItem__code" 
+            href={props.data.source}
+            target="_blank"
+            rel="noreferrer"
+          >See the Code</a>
+
+        )
+      }
+
 
     </div>
   )

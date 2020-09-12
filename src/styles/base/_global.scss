@@ -17,7 +17,7 @@ body {
 
   height: 100%;
   background-color: #1c2025;
-  animation: movingGradient 20s ease infinite;
+  animation: movingGradient 15s ease infinite;
   background-size: 300% 300%;
   position: relative;
 
@@ -25,7 +25,8 @@ body {
   }
   @include whenLarge {
     background-color: none;
-    background-image: linear-gradient(to right top, #c63f48, #9f49c2);
+    // background-image: linear-gradient(to right top, #c63f48, #9f49c2);
+    background-image: linear-gradient(to right top, #c63f48, #cb355c, #cc2f72, #c73089, #bc38a2, #b23aa8, #a83cad, #9c3fb2, #9937a6, #95309b, #912890, #8c2085);
     background-repeat: no-repeat;
     margin: 0 20px;
 
