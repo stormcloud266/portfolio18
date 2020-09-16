@@ -1,11 +1,12 @@
 .link {
   font-weight: 400;
   color: $color-purple-l;
-  transition: all .3s;
+  transition: all 0.3s;
   padding: 2px 4px 3px;
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: $color-text-primary;
     background: $color-purple-m;
-    box-shadow: 0 3px 20px -8px rgba(0,0,0,0.3);
+    box-shadow: 0 3px 20px -8px rgba(0, 0, 0, 0.3);
   }
 }

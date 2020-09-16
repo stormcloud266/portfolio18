@@ -1,23 +1,22 @@
 // media queries
 @mixin whenLarge() {
-    @media only screen and (min-width: 960px) {
-        @content;
-    }
+  @media only screen and (min-width: 960px) {
+    @content;
+  }
 }
 @mixin whenMedium() {
-    @media only screen and (min-width: 600px) {
-        @content;
-    }
+  @media only screen and (min-width: 600px) {
+    @content;
+  }
 }
 
 // colors
 $color-gray-l: #373b41;
-$color-gray-m: #272B31;
+$color-gray-m: #272b31;
 $color-gray-d: #1c2025;
 
-
-$color-pink-l: rgb(242, 108, 116);
-$color-pink-m: rgb(222, 78, 87);
+$color-pink-l: #f26c74;
+$color-pink-m: #de4e57;
 // $color-purple-l: rgb(145, 130, 201);
 $color-purple-l: #ad8ed0;
 // $color-purple-m: rgb(75, 61, 122);

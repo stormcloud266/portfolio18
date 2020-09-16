@@ -1,14 +1,19 @@
 .page {
-  animation-duration: .5s;
+  animation-duration: 0.5s;
   overflow-y: overlay;
   overflow-x: hidden;
   background-size: cover;
   position: relative;
-  top: 0; right: 0; bottom: 0; left: 0;
 
-  &::-webkit-scrollbar { width: 10px; }
-  &::-webkit-scrollbar-track {  background-color: $color-gray-d; }
-  &::-webkit-scrollbar-thumb { background-color: $color-purple-m; }
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: $color-gray-d;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $color-purple-m;
+  }
 
   &__content {
     padding: 40px 20px 120px;
@@ -19,7 +24,7 @@
     font-size: 150px;
     text-transform: uppercase;
     display: none;
-    line-height: .8;
+    line-height: 0.8;
     position: absolute;
     top: 0;
     left: -8px;
@@ -37,8 +42,8 @@
       background: #ee4550;
       position: absolute;
       bottom: 20px;
-      left:20px;
-      opacity: .7;
+      left: 20px;
+      opacity: 0.7;
     }
   }
   @include whenMedium {
@@ -51,15 +56,20 @@
       margin: 0 auto;
     }
 
-    &.mountains { background-image: url('../assets/mountains.svg'); }
-    &.splash { background-image: url('../assets/splash.svg'); }
-    &.swoop { background-image: url('../assets/swoop.svg'); }
-
+    &.mountains {
+      background-image: url('../assets/mountains.svg');
+    }
+    &.splash {
+      background-image: url('../assets/splash.svg');
+    }
+    &.swoop {
+      background-image: url('../assets/swoop.svg');
+    }
   }
   @include whenLarge {
-    top: 0; right: 0; bottom: 0; left: 0;
-    height: 660px;
-    max-height: 94vh;
+    min-height: auto;
+    height: 94vh;
+    max-height: 660px;
     background-attachment: scroll;
 
     &__title {
@@ -68,7 +78,6 @@
     &__content {
       max-width: 100%;
       padding: 170px 20px 0;
-      position: relative;
     }
   }
 }

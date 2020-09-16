@@ -1,4 +1,3 @@
-
 .App {
   display: flex;
   flex-direction: column;
@@ -6,7 +5,6 @@
   height: 100%;
   background: #1c2025;
   color: $color-text-body;
-  
 
   .content-main {
     flex: 3;
@@ -14,7 +12,9 @@
   }
 
   @include whenMedium {
-    .content-main { height: calc(100vh - 160px); }
+    .content-main {
+      height: calc(100vh - 160px);
+    }
   }
   @include whenLarge {
     overflow: hidden;
@@ -28,8 +28,6 @@
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    box-shadow: 0px 3px 30px 0px rgba(0,0,0,0.5);
-
+    box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.5);
   }
-
 }

@@ -46,8 +46,8 @@
     width: 115px;
     height: 115px;
     background: $color-gray-m;
-    box-shadow: 0px 3px 20px -5px rgba(0,0,0,.5);
-    transition: all .3s, border-radius .6s;
+    box-shadow: 0px 3px 20px -5px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s, border-radius 0.6s;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -57,13 +57,13 @@
 
     svg {
       font-size: 52px;
-      opacity: .2;
-      transition: all .3s;
+      opacity: 0.2;
+      transition: all 0.3s;
       margin-top: -30px;
     }
     p {
       position: absolute;
-      transition: all .3s;
+      transition: all 0.3s;
       text-align: center;
       bottom: 10px;
     }
@@ -71,7 +71,6 @@
     &:hover {
       background: $color-purple-m;
     }
-
   }
   &__reading-container {
     max-width: 300px;
@@ -85,30 +84,30 @@
     color: $color-text-body;
     background: $color-gray-m;
     padding: 10px 20px;
-    transition: all .3s;
+    transition: all 0.3s;
     border-radius: 3px;
-    box-shadow: 0px 3px 20px -5px rgba(0,0,0,.5);
+    box-shadow: 0px 3px 20px -5px rgba(0, 0, 0, 0.5);
 
     svg {
       margin-right: 20px;
       font-size: 22px;
       color: #686e78;
-      transition: all .3s;
+      transition: all 0.3s;
     }
 
     &:hover {
       background: #373b41;
       color: $color-text-primary;
-      box-shadow: 0px 4px 30px -8px rgba(0,0,0,0.3);
-      svg { color: $color-purple-l;}
+      box-shadow: 0px 4px 30px -8px rgba(0, 0, 0, 0.3);
+      svg {
+        color: $color-purple-l;
+      }
     }
   }
 
   @include whenMedium {
-
   }
   @include whenLarge {
-
     &__title {
       font-size: $font-header-sm;
     }
@@ -124,7 +123,6 @@
         top: 80px;
         opacity: 0;
         color: $color-text-primary;
-
       }
       &:hover {
         transform: scale(1.2);
@@ -135,7 +133,7 @@
           opacity: 1;
         }
         svg {
-          opacity: .05;
+          opacity: 0.05;
         }
       }
     }
@@ -160,34 +158,34 @@
     margin: 20px auto 0;
     flex-direction: column;
 
-  //   ul {
-  //     margin-right: 5px;
-  //     flex: 1;
-  //     display: flex;
-  //     flex-wrap: wrap;
-  //     // justify-content: center;
-  //     // background: rgb(21, 65, 64);
-  //     &:nth-child(3n) {
-  //       background: red;
-  //     }
-  //   }
-  //   li {
-  //     flex-basis: 30%;
-  //     position: relative;
-  //     margin-bottom: 5px;
-  //     margin-right: 5px;
-  //     background: $color-gray-m;
-  //     // flex: 1;
-  //     padding: 10px 10px 10px 16px;
-  //     border-radius: 3px;
-  //   }
+    //   ul {
+    //     margin-right: 5px;
+    //     flex: 1;
+    //     display: flex;
+    //     flex-wrap: wrap;
+    //     // justify-content: center;
+    //     // background: rgb(21, 65, 64);
+    //     &:nth-child(3n) {
+    //       background: red;
+    //     }
+    //   }
+    //   li {
+    //     flex-basis: 30%;
+    //     position: relative;
+    //     margin-bottom: 5px;
+    //     margin-right: 5px;
+    //     background: $color-gray-m;
+    //     // flex: 1;
+    //     padding: 10px 10px 10px 16px;
+    //     border-radius: 3px;
+    //   }
   }
 
   .tools {
     background: $color-gray-m;
     max-width: 400px;
     padding: 10px 20px;
-    box-shadow: 0px 3px 20px -5px rgba(0,0,0,.5);
+    box-shadow: 0px 3px 20px -5px rgba(0, 0, 0, 0.5);
     &:first-of-type {
       margin-bottom: 30px;
     }
@@ -200,7 +198,6 @@
       svg {
         margin-right: 10px;
         color: $color-purple-l;
-
       }
     }
     &__list {

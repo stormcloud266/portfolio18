@@ -1,8 +1,7 @@
-import React from 'react';
-import Layout from '../components/layout';
+import React from 'react'
+import Layout from '../components/layout'
 import { Link } from 'gatsby'
-import fire from '../assets/fire.gif';
-
+import fire from '../assets/fire.gif'
 
 const Home = () => (
   <Layout>
@@ -17,14 +16,21 @@ const Home = () => (
             </p>
           </div>
           <p className="Home__body">
-            I'm a front-end web developer who is passionate about building clean, responsive websites from the ground up. I love learning about the newest technologies to help create a more modern online experience. If you're looking for a secure, optimized website <Link to="/contact" className="link">let's chat</Link>.
+            I'm a front-end web developer who is passionate about building
+            clean, responsive websites from the ground up. I love learning about
+            the newest technologies to help create a more modern online
+            experience. If you're looking for a secure, optimized website{' '}
+            <Link to="/contact" className="link">
+              let's chat
+            </Link>
+            .
           </p>
         </div>
-        </div>
+      </div>
 
-      <img className="fire" src={fire} alt=""/>
+      <img className="fire" src={fire} alt="" />
     </div>
   </Layout>
 )
 
-export default Home;
+export default Home

@@ -1,9 +1,9 @@
 .Home {
-  // position: relative;
+  position: relative;
   // min-height: calc(100vh - 138px);
 
   &__section {
-    animation-delay: .2s;
+    animation-delay: 0.2s;
   }
 
   &__title {
@@ -43,15 +43,16 @@
     font-size: $font-header-sm;
     color: $color-text-primary;
   }
-
 }
 .fire {
   width: 96px;
-  height:96px;
+  height: 96px;
   position: absolute;
   display: none;
   bottom: 0;
   right: 0;
 
-  @include whenLarge { display: block; }
+  @include whenLarge {
+    display: block;
+  }
 }

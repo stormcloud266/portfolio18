@@ -5,7 +5,7 @@
   justify-content: space-between;
   padding: 10px 20px;
   // border-bottom: 3px solid transparent;
-  border-color: rgba(0,0,0,.01);
+  border-color: rgba(0, 0, 0, 0.01);
   border-style: solid;
   border-image: linear-gradient(to right top, #c63f48, #9f49c2);
   border-image-slice: 1;
@@ -32,7 +32,7 @@
     width: 95px;
     background: #373b41;
     border: 3px solid #7e6d96;
-    box-shadow: 0px 4px 30px -4px rgba(0,0,0,0.6);
+    box-shadow: 0px 4px 30px -4px rgba(0, 0, 0, 0.6);
   }
   &__status-wrapper {
     display: flex;
@@ -69,8 +69,9 @@
       font-size: 24px;
       color: rgba($color-pink-l, 0.7);
       display: block;
-      transition: all .3s;
-      &:hover, &:focus {
+      transition: all 0.3s;
+      &:hover,
+      &:focus {
         // color: rgba(214, 24, 58, 1);
         color: $color-pink-l;
         transform: scale(1.2);
@@ -87,7 +88,7 @@
     color: #9ea4af;
     a {
       color: #9ea4af;
-      transition: color .3s;
+      transition: color 0.3s;
       &:hover {
         color: $color-pink-l;
       }
@@ -98,7 +99,9 @@
     }
   }
 
-  @include whenMedium { padding: 20px 20px; }
+  @include whenMedium {
+    padding: 20px 20px;
+  }
   @include whenLarge {
     min-width: 260px;
     flex-direction: column;
@@ -113,17 +116,25 @@
       height: 136px;
       width: 136px;
     }
-    &__mobile-title { display: none; }
-    &__legal { display: block; }
+    &__mobile-title {
+      display: none;
+    }
+    &__legal {
+      display: block;
+    }
 
     &__social-icons {
       justify-content: center;
-      a { margin: 10px 15px 5px; }
+      a {
+        margin: 10px 15px 5px;
+      }
     }
     &__status-wrapper {
       padding: 0 10px;
       margin: 10px 0;
     }
-    &__text { margin-left: 0px; }
+    &__text {
+      margin-left: 0px;
+    }
   }
 }

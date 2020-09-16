@@ -8,12 +8,11 @@ html {
   font-size: 62.5%;
 }
 body {
-
   font-family: Arial, sans-serif;
   font-size: 17px;
   line-height: 1.75;
   font-weight: 400;
-  letter-spacing: .25px;
+  letter-spacing: 0.25px;
 
   height: 100%;
   background-color: #1c2025;
@@ -26,14 +25,37 @@ body {
   @include whenLarge {
     background-color: none;
     // background-image: linear-gradient(to right top, #c63f48, #9f49c2);
-    background-image: linear-gradient(to right top, #c63f48, #cb355c, #cc2f72, #c73089, #bc38a2, #b23aa8, #a83cad, #9c3fb2, #9937a6, #95309b, #912890, #8c2085);
+    background-image: linear-gradient(
+      to right top,
+      #f2d346,
+      #f8b93e,
+      #f99f3e,
+      #f68643,
+      #c63f48,
+      #cb355c,
+      #cc2f72,
+      #c73089,
+      #bc38a2,
+      #b23aa8,
+      #a83cad,
+      #9c3fb2,
+      #9937a6,
+      #95309b,
+      #912890,
+      #8c2085
+    );
+
     background-repeat: no-repeat;
     margin: 0 20px;
-
   }
 }
-a { text-decoration: none; color: $color-purple-l; }
-li { list-style: none }
+a {
+  text-decoration: none;
+  color: $color-purple-l;
+}
+li {
+  list-style: none;
+}
 
 .wf-active body {
   font-size: 19px;

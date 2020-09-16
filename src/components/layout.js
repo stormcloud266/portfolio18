@@ -1,18 +1,48 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { StaticQuery, graphql } from 'gatsby'
 
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faHome, faUserAstronaut, faWrench, faEnvelope, faMobileAlt, faCode, faTerminal, faHeadphones, faCloud, faGlasses, faGlobe, faMusic, faBook, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import {
+  faHome,
+  faUserAstronaut,
+  faWrench,
+  faEnvelope,
+  faMobileAlt,
+  faCode,
+  faTerminal,
+  faHeadphones,
+  faCloud,
+  faGlasses,
+  faGlobe,
+  faMusic,
+  faBook,
+  faInfoCircle,
+} from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
-import '../styles/styles.scss';
+import '../styles/styles.scss'
 
-import Head from './Head';
-import Sidebar from './Sidebar';
+import Head from './Head'
+import Sidebar from './Sidebar'
 
-library.add(fab, faHome, faUserAstronaut, faWrench, faEnvelope, faMobileAlt, faCode, faTerminal, faHeadphones, faCloud, faGlasses, faGlobe, faMusic, faBook, faInfoCircle);
-
+library.add(
+  fab,
+  faHome,
+  faUserAstronaut,
+  faWrench,
+  faEnvelope,
+  faMobileAlt,
+  faCode,
+  faTerminal,
+  faHeadphones,
+  faCloud,
+  faGlasses,
+  faGlobe,
+  faMusic,
+  faBook,
+  faInfoCircle
+)
 
 const Layout = ({ children, data }) => (
   <StaticQuery
@@ -27,12 +57,10 @@ const Layout = ({ children, data }) => (
     `}
     render={data => (
       <>
-      <Head data={data} />
+        <Head data={data} />
         <div className="App">
           <Sidebar />
-          <div className="content-main">
-            {children}
-          </div>
+          <div className="content-main">{children}</div>
         </div>
       </>
     )}

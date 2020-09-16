@@ -8,17 +8,20 @@
 
   &__email {
     color: $color-pink-l;
-    transition: color .3s;
+    transition: color 0.3s;
     font-family: 'Heebo', sans-serif;
     display: block;
     margin-top: 10px;
-    &:hover, &:focus { color: $color-pink-m; }
+    &:hover,
+    &:focus {
+      color: $color-pink-m;
+    }
   }
 
   &__form {
     flex: 4;
-    animation-delay: .2s;
-    animation-duration: .8s;
+    animation-delay: 0.2s;
+    animation-duration: 0.8s;
 
     div {
       display: flex;
@@ -27,7 +30,9 @@
 
     input,
     textarea,
-    button { font-family: 'Dosis', sans-serif; }
+    button {
+      font-family: 'Dosis', sans-serif;
+    }
 
     input,
     textarea {
@@ -35,14 +40,14 @@
       border-bottom: 3px solid transparent;
       order: 2;
       padding: 10px;
-      box-shadow: 0px 3px 30px -5px rgba(0,0,0,0.3);
+      box-shadow: 0px 3px 30px -5px rgba(0, 0, 0, 0.3);
       font-size: 19px;
       margin-bottom: 10px;
       letter-spacing: 1px;
       color: $color-text-primary;
       background: $color-gray-m;
       outline: none;
-      transition: all .3s;
+      transition: all 0.3s;
       &:focus {
         // border-image: linear-gradient(to right top, #c63f48, #9f49c2);
         border-color: $color-pink-m;
@@ -54,7 +59,7 @@
 
     textarea {
       resize: none;
-      min-height: 160px;;
+      min-height: 160px;
     }
 
     label {
@@ -63,22 +68,22 @@
       font-weight: 500;
       color: $color-text-tertiary;
       order: 1;
-      transition: color .3s;
+      transition: color 0.3s;
     }
 
     button {
-      box-shadow: 0px 3px 30px -5px rgba(0,0,0,0.3);
+      box-shadow: 0px 3px 30px -5px rgba(0, 0, 0, 0.3);
       cursor: pointer;
       padding: 15px 20px;
       margin-top: 10px;
       font-size: 16px;
       border: none;
       color: #eff3f9;
-      transition: all .3s;
+      transition: all 0.3s;
       width: 100%;
       background: rgba(157, 150, 184, 0.2);
       &:hover {
-        box-shadow: 0px 4px 20px -5px rgba(0,0,0,0.5);
+        box-shadow: 0px 4px 20px -5px rgba(0, 0, 0, 0.5);
         background: rgba(157, 150, 184, 0.5);
       }
     }
@@ -95,18 +100,21 @@
     // max-width: 300px;
 
     // p { flex: 3;}
-    span { margin: 0 10px; }
+    span {
+      margin: 0 10px;
+    }
     a {
       // flex: 3;
       color: $color-text-tertiary;
       // font-style: italic;
       font-size: 1.7rem;
-      transition: color .3s;
-      &:hover { color: $color-pink-l; }
+      transition: color 0.3s;
+      &:hover {
+        color: $color-pink-l;
+      }
     }
   }
   @include whenMedium {
-
   }
   @include whenLarge {
     flex-direction: row;
@@ -115,7 +123,8 @@
       padding-right: 30px;
       margin-top: 20px;
     }
-    .mobile-privacy { display: none; }
+    .mobile-privacy {
+      display: none;
+    }
   }
-
 }

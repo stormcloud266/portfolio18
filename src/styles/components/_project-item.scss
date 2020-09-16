@@ -1,5 +1,5 @@
 .ProjectItem {
-  border-bottom: 1px solid #272B31;
+  border-bottom: 1px solid #272b31;
   color: #dadee4;
   padding: 6.5rem 0 8rem;
 
@@ -31,16 +31,19 @@
     color: $color-purple-l;
   }
 
-  &__description, &__task {
+  &__description,
+  &__task {
     color: $color-text-body;
     max-width: 600px;
     font-weight: 400;
-    letter-spacing: .6px;
+    letter-spacing: 0.6px;
   }
 
   &__description {
     margin-bottom: 35px;
-    p { margin-bottom: 25px; }
+    p {
+      margin-bottom: 25px;
+    }
   }
 
   &__tasks {
@@ -50,49 +53,63 @@
 
   &__tasks-title {
     color: $color-text-tertiary;
-    font-family: 'Heebo',sans-serif;
-    svg { margin-right: 15px; }
+    font-family: 'Heebo', sans-serif;
+    svg {
+      margin-right: 15px;
+    }
   }
 
   &__task {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-left: 40px;
     list-style: disc;
   }
 
-  &__description a, &__task a {
+  &__description a,
+  &__task a {
     font-weight: 400;
     color: $color-purple-l;
-    transition: all .3s;
+    transition: all 0.3s;
     padding: 2px 4px 3px;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       color: $color-text-primary;
       background: $color-purple-m;
-      box-shadow: 0 3px 20px -8px rgba(0,0,0,0.3);
+      box-shadow: 0 3px 20px -8px rgba(0, 0, 0, 0.3);
     }
   }
 
-  &__demo, &__code {
+  &__demo,
+  &__code {
     padding: 10px 25px;
     border: 2px solid transparent;
     color: $color-text-primary;
     border-radius: 3px;
     font-size: 16px;
-    box-shadow: 0 3px 20px -5px rgba(0,0,0,0.3);
-    transition: all .3s;
-    &:hover, &:focus { box-shadow: 0 3px 25px 0px rgba(0,0,0,0.4); }
+    box-shadow: 0 3px 20px -5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+    &:hover,
+    &:focus {
+      box-shadow: 0 3px 25px 0px rgba(0, 0, 0, 0.4);
+    }
   }
 
   &__demo {
     margin-right: 10px;
     background: rgba(84, 68, 142, 1);
     background: $color-purple-m;
-    &:hover, &:focus { background: lighten($color-purple-m, 10%); }
+    &:hover,
+    &:focus {
+      background: lighten($color-purple-m, 10%);
+    }
   }
 
   &__code {
     background: $color-gray-l;
-    &:hover, &:focus { background: lighten($color-gray-l, 10%); }
+    &:hover,
+    &:focus {
+      background: lighten($color-gray-l, 10%);
+    }
   }
 
   &__tech-wrapper {
@@ -105,6 +122,10 @@
     color: $color-text-tertiary;
     margin-right: 14px;
   }
-  @include whenMedium { padding: 6.5rem 10px 8rem; }
-  @include whenLarge { padding: 6.5rem 20px 8rem; }
+  @include whenMedium {
+    padding: 6.5rem 10px 8rem;
+  }
+  @include whenLarge {
+    padding: 6.5rem 20px 8rem;
+  }
 }

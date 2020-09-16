@@ -28,13 +28,17 @@
   }
   @include whenMedium {
     padding-top: 0;
-    .ufo { transform: rotate(13.8deg); }
+    .ufo {
+      transform: rotate(13.8deg);
+    }
     p {
       left: -40px;
       transform: rotate(13.8deg);
     }
   }
   @include whenLarge {
-    .cow { display: block; }
+    .cow {
+      display: block;
+    }
   }
 }
